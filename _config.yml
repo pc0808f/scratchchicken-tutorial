@@ -116,7 +116,7 @@ course_structure:
     description: "認識 Scratch 介面，創造電子雞角色"
   - week: 2
     title: "讓電子雞動起來！"
-    status: "coming_soon"
+    status: "available"
     description: "學習事件觸發與基本動畫製作"
   - week: 3
     title: "民以食為天：餵食系統"
