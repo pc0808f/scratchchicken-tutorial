@@ -33,25 +33,107 @@ nav_order: 1
 ## 📚 課程概覽
 
 <div class="course-overview">
-{% for week in site.data.course_structure %}
-<div class="week-card {% if week.status == 'available' %}available{% else %}coming-soon{% endif %}">
+
+<div class="week-card available">
   <div class="week-header">
-    <span class="week-number">第 {{ week.week }} 週</span>
-    {% if week.status == 'available' %}
-      <span class="status-badge available">開放學習</span>
-    {% else %}
-      <span class="status-badge coming-soon">建置中</span>
-    {% endif %}
+    <span class="week-number">第 1 週</span>
+    <span class="status-badge available">開放學習</span>
   </div>
-  <h3>{{ week.title }}</h3>
-  <p>{{ week.description }}</p>
-  {% if week.status == 'available' %}
-    <a href="./week{{ week.week }}/" class="learn-btn">開始學習</a>
-  {% else %}
-    <button class="learn-btn disabled" disabled>敬請期待</button>
-  {% endif %}
+  <h3>初探 Scratch 與電子雞的誕生</h3>
+  <p>認識 Scratch 介面，創造電子雞角色</p>
+  <a href="./week1/" class="learn-btn">開始學習</a>
 </div>
-{% endfor %}
+
+<div class="week-card available">
+  <div class="week-header">
+    <span class="week-number">第 2 週</span>
+    <span class="status-badge available">開放學習</span>
+  </div>
+  <h3>讓電子雞動起來！</h3>
+  <p>學習事件觸發與基本動畫製作</p>
+  <a href="./week2/" class="learn-btn">開始學習</a>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 3 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>民以食為天：餵食系統</h3>
+  <p>變數的建立與應用、廣播訊息</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 4 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>吃飽也要開心玩：互動遊戲（一）</h3>
+  <p>條件判斷與滑鼠偵測</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 5 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>互動遊戲（二）與狀態下降</h3>
+  <p>亂數與更複雜的遊戲邏輯</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 6 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>自己的便便自己清</h3>
+  <p>分身系統與計時器應用</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 7 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>電子雞的心情寫照</h3>
+  <p>複雜條件判斷與角色造型切換</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 8 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>從出生到長大（進階選修）</h3>
+  <p>自定義積木與成長系統</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 9 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>生命的盡頭：死亡與重生</h3>
+  <p>遊戲狀態管理與重啟機制</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
+<div class="week-card coming-soon">
+  <div class="week-header">
+    <span class="week-number">第 10 週</span>
+    <span class="status-badge coming-soon">建置中</span>
+  </div>
+  <h3>我的專屬電子雞：成果發表</h3>
+  <p>專案優化與表達能力</p>
+  <button class="learn-btn disabled" disabled>敬請期待</button>
+</div>
+
 </div>
 
 ---
