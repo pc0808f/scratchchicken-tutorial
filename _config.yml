@@ -1,0 +1,152 @@
+# GitHub Pages 設定檔
+# Scratch 電子雞創客課程教學網站
+
+# 網站基本資訊
+title: "Scratch 電子雞創客課程"
+description: "國小四五年級程式設計創客教學 - 透過電子雞養成學習 Scratch 程式設計"
+baseurl: "/scratchchicken-tutorial" # GitHub Pages 子目錄名稱
+url: "https://pc0808f.github.io" # 替換為你的 GitHub Pages 網址
+
+# 作者資訊
+author:
+  name: "創客教學團隊"
+  email: "teacher@example.com"
+
+# 網站語言和地區
+lang: zh-TW
+locale: zh_TW
+
+# Jekyll 主題設定
+theme: minima
+# 如果要使用 GitHub Pages 支援的主題，可以選擇：
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-architect
+# theme: jekyll-theme-slate
+
+# Markdown 處理器設定
+markdown: kramdown
+highlighter: rouge
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 網站導航選單
+header_pages:
+  - index.md
+  - how-to-learn.md
+  - week1/index.md
+
+# 網站設定
+show_excerpts: true
+paginate: 10
+
+# 排除的檔案（不會出現在網站中）
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md
+  - GitHub_Pages_設置指南.md
+  - LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .gitignore
+
+# 包含的檔案
+include:
+  - _pages
+
+# 預設的 Front Matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "創客教學團隊"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# 社群媒體連結（可選）
+social:
+  - name: GitHub
+    icon: github
+    link: https://github.com/pc0808f/scratchchicken-tutorial
+
+# 網站分析（可選）
+# google_analytics: G-XXXXXXXXXX
+
+# 搜尋引擎最佳化
+seo:
+  type: Website
+  name: Scratch 電子雞創客課程
+  links:
+    - https://pc0808f.github.io/scratchchicken-tutorial
+
+# 自訂變數
+custom:
+  course_info:
+    grade: "國小四、五年級"
+    duration: "10週課程"
+    time_per_week: "75分鐘"
+    platform: "Scratch 3.0"
+  
+  contact:
+    teacher_name: "創客老師"
+    email: "teacher@example.com"
+    
+  resources:
+    scratch_url: "https://scratch.mit.edu/"
+    course_materials: "/resources/"
+
+# 課程結構
+course_structure:
+  - week: 1
+    title: "初探 Scratch 與電子雞的誕生"
+    status: "available"
+    description: "認識 Scratch 介面，創造電子雞角色"
+  - week: 2
+    title: "讓電子雞動起來！"
+    status: "coming_soon"
+    description: "學習事件觸發與基本動畫製作"
+  - week: 3
+    title: "民以食為天：餵食系統"
+    status: "coming_soon" 
+    description: "變數的建立與應用、廣播訊息"
+  - week: 4
+    title: "吃飽也要開心玩：互動遊戲（一）"
+    status: "coming_soon"
+    description: "條件判斷與滑鼠偵測"
+  - week: 5
+    title: "互動遊戲（二）與狀態下降"
+    status: "coming_soon"
+    description: "亂數與更複雜的遊戲邏輯"
+  - week: 6
+    title: "自己的便便自己清"
+    status: "coming_soon"
+    description: "分身系統與計時器應用"
+  - week: 7
+    title: "電子雞的心情寫照"
+    status: "coming_soon"
+    description: "複雜條件判斷與角色造型切換"
+  - week: 8
+    title: "從出生到長大（進階選修）"
+    status: "coming_soon"
+    description: "自定義積木與成長系統"
+  - week: 9
+    title: "生命的盡頭：死亡與重生"
+    status: "coming_soon"
+    description: "遊戲狀態管理與重啟機制"
+  - week: 10
+    title: "我的專屬電子雞：成果發表"
+    status: "coming_soon"
+    description: "專案優化與表達能力"

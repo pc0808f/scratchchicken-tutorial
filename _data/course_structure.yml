@@ -1,0 +1,61 @@
+# 課程結構數據檔案
+- week: 1
+  title: "初探 Scratch 與電子雞的誕生"
+  status: "available"
+  description: "認識 Scratch 介面，創造電子雞角色"
+  url: "/week1/"
+  
+- week: 2
+  title: "讓電子雞動起來！"
+  status: "coming_soon"
+  description: "學習事件觸發與基本動畫製作"
+  url: "/week2/"
+  
+- week: 3
+  title: "民以食為天：餵食系統"
+  status: "coming_soon" 
+  description: "變數的建立與應用、廣播訊息"
+  url: "/week3/"
+  
+- week: 4
+  title: "吃飽也要開心玩：互動遊戲（一）"
+  status: "coming_soon"
+  description: "條件判斷與滑鼠偵測"
+  url: "/week4/"
+  
+- week: 5
+  title: "互動遊戲（二）與狀態下降"
+  status: "coming_soon"
+  description: "亂數與更複雜的遊戲邏輯"
+  url: "/week5/"
+  
+- week: 6
+  title: "自己的便便自己清"
+  status: "coming_soon"
+  description: "分身系統與計時器應用"
+  url: "/week6/"
+  
+- week: 7
+  title: "電子雞的心情寫照"
+  status: "coming_soon"
+  description: "複雜條件判斷與角色造型切換"
+  url: "/week7/"
+  
+- week: 8
+  title: "從出生到長大（進階選修）"
+  status: "coming_soon"
+  description: "自定義積木與成長系統"
+  url: "/week8/"
+  optional: true
+  
+- week: 9
+  title: "生命的盡頭：死亡與重生"
+  status: "coming_soon"
+  description: "遊戲狀態管理與重啟機制"
+  url: "/week9/"
+  
+- week: 10
+  title: "我的專屬電子雞：成果發表"
+  status: "coming_soon"
+  description: "專案優化與表達能力"
+  url: "/week10/"
