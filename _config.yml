@@ -122,7 +122,7 @@ course_structure:
     description: "學習事件觸發與基本動畫製作"
   - week: 3
     title: "民以食為天：餵食系統"
-    status: "coming_soon" 
+    status: "available"
     description: "變數的建立與應用、廣播訊息"
   - week: 4
     title: "吃飽也要開心玩：互動遊戲（一）"
