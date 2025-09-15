@@ -54,14 +54,14 @@ nav_order: 1
   <a href="./week2/" class="learn-btn">開始學習</a>
 </div>
 
-<div class="week-card coming-soon">
+<div class="week-card available">
   <div class="week-header">
     <span class="week-number">第 3 週</span>
-    <span class="status-badge coming-soon">建置中</span>
+    <span class="status-badge available">開放學習</span>
   </div>
   <h3>民以食為天：餵食系統</h3>
   <p>變數的建立與應用、廣播訊息</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
+  <a href="./week3/" class="learn-btn">開始學習</a>
 </div>
 
 <div class="week-card coming-soon">

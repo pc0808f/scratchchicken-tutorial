@@ -39,6 +39,8 @@ header_pages:
   - index.md
   - how-to-learn.md
   - week1/index.md
+  - week2/index.md
+  - week3/index.md
 
 # 網站設定
 show_excerpts: true
