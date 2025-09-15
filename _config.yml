@@ -10,7 +10,7 @@ url: "https://pc0808f.github.io" # 替換為你的 GitHub Pages 網址
 # 作者資訊
 author:
   name: "創客教學團隊"
-  email: "teacher@example.com"
+  line: "LINE 私訊老師"
 
 # 網站語言和地區
 lang: zh-TW
@@ -104,7 +104,7 @@ custom:
   
   contact:
     teacher_name: "創客老師"
-    email: "teacher@example.com"
+    line: "LINE 私訊老師"
     
   resources:
     scratch_url: "https://scratch.mit.edu/"
