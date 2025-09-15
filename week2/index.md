@@ -158,6 +158,19 @@ has_children: true
 播放音效 [cat]
 ```
 
+#### 🎨 情緒造型範例
+
+以下是不同情緒的電子雞造型參考：
+
+<div class="demo-gallery">
+<img src="./resources/開心電子雞.png" alt="開心的電子雞" class="demo-image">
+<img src="./resources/難過電子雞.png" alt="難過的電子雞" class="demo-image">
+</div>
+
+**造型設計要點**：
+- 🙂 **開心**：瞇瞇眼、上揚嘴角
+- 😢 **難過**：下垂眼角、眼淚、嘴角下垂
+
 ### 5️⃣ 音效與動畫的結合
 {: .text-green-300}
 

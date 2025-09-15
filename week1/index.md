@@ -246,8 +246,7 @@ Scratch 是由麻省理工學院（MIT）開發的免費程式設計平台，特
 以下是一些電子雞設計的參考圖片，幫助你發想創意：
 
 <div class="demo-gallery">
-<img src="./resources/demo.png" alt="電子雞設計範例1" class="demo-image">
-<img src="./resources/demo1.png" alt="電子雞設計範例2" class="demo-image">
+<img src="./resources/電子雞範例.png" alt="基本電子雞設計範例" class="demo-image">
 </div>
 
 **從範例中可以學到：**
