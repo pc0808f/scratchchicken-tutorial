@@ -64,14 +64,14 @@ nav_order: 1
   <a href="./week3/" class="learn-btn">開始學習</a>
 </div>
 
-<div class="week-card coming-soon">
+<div class="week-card available">
   <div class="week-header">
     <span class="week-number">第 4 週</span>
-    <span class="status-badge coming-soon">建置中</span>
+    <span class="status-badge available">開放學習</span>
   </div>
   <h3>吃飽也要開心玩：互動遊戲（一）</h3>
   <p>條件判斷與滑鼠偵測</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
+  <a href="./week4/" class="learn-btn">開始學習</a>
 </div>
 
 <div class="week-card coming-soon">
