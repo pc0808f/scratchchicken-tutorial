@@ -34,12 +34,19 @@ has_children: true
 
 #### 🔸 常用的事件積木
 
-```scratch
-當 🏁 被點擊    # 程式開始執行
-當這個角色被點擊  # 滑鼠點擊角色時
-當按下 空白鍵    # 鍵盤按鍵觸發
-當接收到 訊息    # 收到廣播訊息時
-```
+<div class="event-blocks-gallery">
+<img src="./resources/當綠旗被點擊.jpg" alt="當綠旗被點擊積木" class="event-block">
+<p class="block-description">程式開始執行</p>
+
+<img src="./resources/當角色被點擊.jpg" alt="當角色被點擊積木" class="event-block">
+<p class="block-description">滑鼠點擊角色時</p>
+
+<img src="./resources/當按鍵被點擊.jpg" alt="當按鍵被點擊積木" class="event-block">
+<p class="block-description">鍵盤按鍵觸發</p>
+
+<img src="./resources/當收到訊息.jpg" alt="當收到訊息積木" class="event-block">
+<p class="block-description">收到廣播訊息時</p>
+</div>
 
 #### 💡 實作練習：電子雞的第一個反應
 
@@ -56,35 +63,25 @@ has_children: true
 
 #### 🔸 移動類動畫
 
-```scratch
-移動 (10) 點     # 往前移動
-定位到 x:(100) y:(50)  # 移動到指定位置
-在 (1) 秒內滑行到 x:(150) y:(100)  # 平滑移動
-```
+<div class="animation-blocks">
+<img src="./resources/移動類積木.jpg" alt="移動類動畫積木" class="block-example">
+</div>
 
 #### 🔸 視覺變化動畫
 
-```scratch
-將大小改變 (10)    # 變大或變小
-將大小設為 (150) %  # 設定特定大小
-右轉 (15) 度       # 旋轉動作
-面向 (90) 度       # 面向特定方向
-```
+<div class="animation-blocks">
+<img src="./resources/視覺變化動畫.jpg" alt="視覺變化動畫積木" class="block-example">
+</div>
 
 #### 💡 實作練習：讓電子雞跳舞
 
 **目標**：製作一個簡單的跳舞動畫
 
 **程式積木組合**：
-```scratch
-當 🏁 被點擊
-重複 (4) 次
-  將大小改變 (20)
-  右轉 (90) 度
-  等待 (0.5) 秒
-  將大小改變 (-20)
-  等待 (0.5) 秒
-```
+
+<div class="example-code">
+<img src="./resources/製作一個簡單的跳舞動畫.jpg" alt="跳舞動畫程式積木組合" class="code-example">
+</div>
 
 ### 3️⃣ 造型切換動畫
 {: .text-green-300}
@@ -93,33 +90,48 @@ has_children: true
 
 #### 🔸 準備造型
 
-首先，我們需要為電子雞準備不同的造型：
-1. **預設造型**：平常的樣子
-2. **眨眼造型**：閉眼的樣子
-3. **開心造型**：笑臉的樣子
-4. **生氣造型**：皺眉的樣子
+我們使用 Scratch 內建的小雞角色，它有三種不同的造型：
+
+<div class="costume-gallery">
+<div class="costume-item">
+<img src="./resources/平常小雞.jpg" alt="平常小雞造型" class="costume-image">
+<p><strong>1. 平常小雞</strong>：預設的可愛樣子</p>
+</div>
+
+<div class="costume-item">
+<img src="./resources/開嘴小雞.jpg" alt="開嘴小雞造型" class="costume-image">
+<p><strong>2. 開嘴小雞</strong>：張嘴準備說話或吃東西</p>
+</div>
+
+<div class="costume-item">
+<img src="./resources/低頭小雞.jpg" alt="低頭小雞造型" class="costume-image">
+<p><strong>3. 低頭小雞</strong>：害羞或思考的樣子</p>
+</div>
+</div>
 
 #### 🔸 造型切換積木
 
-```scratch
-換成 [造型名稱] 造型    # 立即切換
-下一個造型            # 循環切換造型
-```
+<div class="costume-blocks">
+<img src="./resources/造型切換積木.jpg" alt="造型切換積木" class="block-example">
+</div>
 
-#### 💡 實作練習：電子雞眨眼動畫
+#### 💡 實作練習：電子雞開闔嘴動畫
+
+**目標**：讓小雞定期開闔嘴巴，就像在說話或呼吸
 
 **步驟**：
-1. 複製電子雞造型，製作「閉眼」版本
-2. 使用以下程式：
+1. 選擇 Scratch 內建的小雞角色
+2. 使用造型切換製作開闔嘴動畫
+3. 建立以下程式：
 
-```scratch
-當 🏁 被點擊
-重複執行
-  換成 [預設] 造型
-  等待 (3) 秒
-  換成 [閉眼] 造型
-  等待 (0.2) 秒
-```
+<div class="practice-code">
+<img src="./resources/實作練習：電子雞開闔嘴.jpg" alt="開闔嘴動畫程式積木" class="code-example">
+</div>
+
+**動畫效果說明**：
+- 小雞會從平常樣子開始
+- 每隔 2 秒張嘴 0.5 秒
+- 形成自然的呼吸或說話效果
 
 ### 4️⃣ 互動式動畫設計
 {: .text-green-300}
@@ -164,12 +176,14 @@ has_children: true
 
 <div class="demo-gallery">
 <img src="./resources/開心電子雞.png" alt="開心的電子雞" class="demo-image">
-<img src="./resources/難過電子雞.png" alt="難過的電子雞" class="demo-image">
+<img src="./resources/難過電子雞.png" alt="有點難過的電子雞" class="demo-image">
+<img src="./resources/極度難過電子雞.png" alt="極度難過的電子雞" class="demo-image">
 </div>
 
 **造型設計要點**：
-- 🙂 **開心**：瞇瞇眼、上揚嘴角
-- 😢 **難過**：下垂眼角、眼淚、嘴角下垂
+- 😊 **開心**：瞇瞇眼、上揚嘴角、充滿活力
+- 😐 **有點難過**：眼角下垂、嘴巴平直
+- 😭 **極度難過**：眼淚直流、嘴角明顯下垂、需要安慰
 
 ### 5️⃣ 音效與動畫的結合
 {: .text-green-300}
