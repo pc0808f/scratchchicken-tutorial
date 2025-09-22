@@ -89,8 +89,12 @@ has_children: true
 #### 🔸 快樂度的變化機制
 
 **自然下降系統**：
+
+**使用這個事件積木開始程式**：
+<img src="../resources/綠旗.jpg" alt="綠旗" class="green-flag-icon"> 當綠旗被點擊
+
 ```scratch
-當 ![綠旗](../resources/綠旗.jpg){: .green-flag-icon} 被點擊
+當 綠旗 被點擊
 重複執行
   等待 (5) 秒
   將 [快樂度] 改變 (-1)
@@ -127,9 +131,12 @@ has_children: true
 
 **目標**：滑鼠接近時電子雞會有反應
 
+**使用這個事件積木開始程式**：
+<img src="../resources/綠旗.jpg" alt="綠旗" class="green-flag-icon"> 當綠旗被點擊
+
 **程式設計**：
 ```scratch
-當 ![綠旗](../resources/綠旗.jpg){: .green-flag-icon} 被點擊
+當 綠旗 被點擊
 重複執行
   如果 <碰到滑鼠游標？> 那麼
     如果 <不是 <(造型編號) = (2)>> 那麼

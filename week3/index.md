@@ -78,9 +78,12 @@ has_children: true
 
 #### 💡 實作練習：建立時間系統
 
+**使用這個事件積木開始程式**：
+<img src="../resources/綠旗.jpg" alt="綠旗" class="green-flag-icon"> 當綠旗被點擊
+
 **程式邏輯**：
 ```scratch
-當 ![綠旗](../resources/綠旗.jpg){: .green-flag-icon} 被點擊
+當 綠旗 被點擊
 重複執行
   等待 (3) 秒
   將 [飢餓度] 改變 (-1)
