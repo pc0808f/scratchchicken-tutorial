@@ -232,7 +232,7 @@ has_children: true
 現在我們可以製作包含眨眼功能的完整互動系統：
 
 ```scratch
-當 🏁 被點擊
+當 ![綠旗](../resources/綠旗.jpg){: .green-flag-icon} 被點擊
 重複執行
   等待 (取 2 到 4 的隨機數) 秒
   換成 [眨眼] 造型

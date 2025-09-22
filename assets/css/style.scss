@@ -625,3 +625,38 @@ img[src$=".png"] {
   border-radius: 12px;
   padding: 0.5rem;
 }
+
+/* Scratch 積木圖示樣式 */
+.icon-small {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.icon-medium {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.icon-large {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+/* 綠旗圖示特殊樣式 */
+.green-flag-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 2px;
+  filter: brightness(1.1);
+}
