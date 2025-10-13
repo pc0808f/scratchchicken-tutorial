@@ -38,6 +38,114 @@ has_children: true
 
 ---
 
+## 🎁 本週特別內容：電子雞大升級！
+
+{: .important }
+**🐣 重要公告：今天要幫你的電子雞大變身！**
+
+這週開始，我們要讓電子雞變得更可愛、更有表情！準備好迎接全新的**扭蛋雞角色**了嗎？
+
+### 🌟 扭蛋雞的10種超萌表情
+
+扭蛋雞不只是換了造型，牠有 **10 種**不同的表情可以用！每種表情都有特別的用途：
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
+
+<div style="background: #fff3e0; border: 3px solid #ff9800; border-radius: 12px; padding: 1rem; text-align: center;">
+<h4 style="margin: 0; color: #e65100;">😊 微笑</h4>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">飽飽的、開心的時候</p>
+</div>
+
+<div style="background: #fff3e0; border: 3px solid #ff9800; border-radius: 12px; padding: 1rem; text-align: center;">
+<h4 style="margin: 0; color: #e65100;">😋 吃飲</h4>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">正在吃東西、喝水</p>
+</div>
+
+<div style="background: #e3f2fd; border: 3px solid #2196f3; border-radius: 12px; padding: 1rem; text-align: center;">
+<h4 style="margin: 0; color: #1565c0;">😢 傷心</h4>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">肚子餓、不開心</p>
+</div>
+
+<div style="background: #f3e5f5; border: 3px solid #9c27b0; border-radius: 12px; padding: 1rem; text-align: center;">
+<h4 style="margin: 0; color: #6a1b9a;">😠 生氣</h4>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">非常不開心、被打擾</p>
+</div>
+
+<div style="background: #e8f5e9; border: 3px solid #4caf50; border-radius: 12px; padding: 1rem; text-align: center;">
+<h4 style="margin: 0; color: #2e7d32;">😐 發呆</h4>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">無聊、沒事做</p>
+</div>
+
+<div style="background: #e0f2f1; border: 3px solid #009688; border-radius: 12px; padding: 1rem; text-align: center;">
+<h4 style="margin: 0; color: #00695c;">😴 睡覺</h4>
+<p style="margin: 0.5rem 0; font-size: 0.9rem;">休息時間、累了</p>
+</div>
+
+</div>
+
+還有更多表情等你發現：**受傷**、**醫生**、**驚嚇**、**眨眼**！
+
+### 🎯 今天要學的重點
+
+1. **✨ 匯入扭蛋雞角色**（只需30秒！）
+2. **🎨 學會切換不同表情**
+3. **🧠 根據條件改變表情**（今天的主要課題）
+
+---
+
+## 🐣 Step 0：匯入扭蛋雞角色（先做這個！）
+
+在開始學習條件判斷前，我們要先把電子雞升級成可愛的扭蛋雞！
+
+### 📥 方法：上傳扭蛋雞角色檔（推薦！超簡單！）
+
+**只需要 3 個步驟，30 秒完成！**
+
+#### 步驟 1：下載扭蛋雞角色檔
+
+[⬇️ 下載扭蛋雞-完整版.sprite3](./resources/扭蛋雞角色包/扭蛋雞-完整版.sprite3){: .btn .btn-primary .fs-5 .mb-4 }
+
+{: .note }
+這個檔案已經包含 10 個表情造型，不用一個一個上傳！
+
+#### 步驟 2：開啟你的 Scratch 專案
+
+- 打開上週的電子雞專案
+- 或是開啟一個新專案
+
+#### 步驟 3：上傳角色
+
+1. 點擊右下角「選擇一個角色」按鈕
+2. 選擇「上傳角色」
+3. 找到剛才下載的 `扭蛋雞-完整版.sprite3`
+4. 點擊「開啟」
+
+**完成！** 扭蛋雞已經加入你的專案了！✨
+
+---
+
+### 🔍 檢查：確認扭蛋雞準備好了
+
+匯入後，請確認：
+
+- [ ] 角色列表中有「扭蛋雞」
+- [ ] 點擊角色，切換到「造型」分頁
+- [ ] 看到 10 個造型：微笑、吃飲、傷心、睡覺、生氣、受傷、醫生、驚嚇、發呆、眨眼
+
+{: .highlight }
+**✅ 都確認了？太好了！現在可以開始今天的課程了！**
+
+---
+
+### 📚 扭蛋雞使用資源
+
+需要更多幫助嗎？
+
+- 📖 [扭蛋雞使用指南](./resources/扭蛋雞角色包/扭蛋雞使用指南.md) - 詳細的使用教學
+- 📋 [造型快速參考表](./resources/扭蛋雞角色包/造型快速參考表.md) - 查詢造型名稱
+
+---
+
 ## 📚 學習內容
 
 ### 1️⃣ 認識條件判斷：電子雞的智慧大腦
@@ -139,12 +247,11 @@ has_children: true
 當 綠旗 被點擊
 重複執行
   如果 <碰到滑鼠游標？> 那麼
-    如果 <不是 <(造型編號) = (2)>> 那麼
-      換成 [好奇] 造型
-      說 [你要跟我玩嗎？] 持續 1 秒
-    結束
+    造型換成 [眨眼]
+    說 [你要跟我玩嗎？] 持續 1 秒
+    等待 (0.5) 秒
   否則
-    換成 [平常] 造型
+    造型換成 [微笑]
   結束
   等待 (0.1) 秒
 ```
@@ -168,18 +275,18 @@ has_children: true
 ```scratch
 當這個角色被點擊
 如果 <<(飢餓度) < (30)> 且 <(快樂度) < (30)>> 那麼
-  換成 [難過] 造型
+  造型換成 [傷心]
   說 [我又餓又不開心...] 持續 3 秒
 否則
   如果 <<(飢餓度) > (70)> 且 <(快樂度) > (70)>> 那麼
-    換成 [超開心] 造型
+    造型換成 [微笑]
     說 [我現在超級棒！] 持續 2 秒
     重複 (3) 次
       轉動 (120) 度
       等待 (0.2) 秒
     結束
   否則
-    換成 [普通] 造型
+    造型換成 [發呆]
     說 [還不錯啦！] 持續 2 秒
   結束
 結束
