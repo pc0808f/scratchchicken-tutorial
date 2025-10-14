@@ -74,14 +74,14 @@ nav_order: 1
   <a href="./week4/" class="learn-btn">開始學習</a>
 </div>
 
-<div class="week-card coming-soon">
+<div class="week-card available">
   <div class="week-header">
     <span class="week-number">第 5 週</span>
-    <span class="status-badge coming-soon">建置中</span>
+    <span class="status-badge available">開放學習</span>
   </div>
-  <h3>互動遊戲（二）與狀態下降</h3>
-  <p>亂數與更複雜的遊戲邏輯</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
+  <h3>接食物遊戲：讓電子雞動起來</h3>
+  <p>移動控制、隨機系統、分身基礎、iPad友善設計</p>
+  <a href="./week5/" class="learn-btn">開始學習</a>
 </div>
 
 <div class="week-card coming-soon">

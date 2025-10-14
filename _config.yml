@@ -127,9 +127,9 @@ course_structure:
     status: "coming_soon"
     description: "條件判斷與滑鼠偵測"
   - week: 5
-    title: "互動遊戲（二）與狀態下降"
-    status: "coming_soon"
-    description: "亂數與更複雜的遊戲邏輯"
+    title: "接食物遊戲：讓電子雞動起來"
+    status: "available"
+    description: "移動控制、隨機系統、分身基礎、iPad友善設計"
   - week: 6
     title: "自己的便便自己清"
     status: "coming_soon"
