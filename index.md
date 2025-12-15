@@ -84,14 +84,24 @@ nav_order: 1
   <a href="./week5/" class="learn-btn">開始學習</a>
 </div>
 
-<div class="week-card coming-soon">
+<div class="week-card available">
+  <div class="week-header">
+    <span class="week-number">第 5.5 週</span>
+    <span class="status-badge available">🎮 技能整合</span>
+  </div>
+  <h3>小雞跑酷遊戲</h3>
+  <p>整合前5週技能、自訂積木、畫筆蓋章、完整遊戲開發</p>
+  <a href="./week5.5/" class="learn-btn">開始學習</a>
+</div>
+
+<div class="week-card available">
   <div class="week-header">
     <span class="week-number">第 6 週</span>
-    <span class="status-badge coming-soon">建置中</span>
+    <span class="status-badge available">開放學習</span>
   </div>
   <h3>自己的便便自己清</h3>
   <p>分身系統與計時器應用</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
+  <a href="./week6/" class="learn-btn">開始學習</a>
 </div>
 
 <div class="week-card coming-soon">
