@@ -39,6 +39,10 @@ header_pages:
   - week1/index.md
   - week2/index.md
   - week3/index.md
+  - week4/index.md
+  - week5/index.md
+  - week5.5/index.md
+  - week6/index.md
 
 # 網站設定
 show_excerpts: true
@@ -130,9 +134,13 @@ course_structure:
     title: "接食物遊戲：讓電子雞動起來"
     status: "available"
     description: "移動控制、隨機系統、分身基礎、iPad友善設計"
+  - week: 5.5
+    title: "小電子雞跑酷遊戲"
+    status: "available"
+    description: "技能整合與完整遊戲開發"
   - week: 6
     title: "自己的便便自己清"
-    status: "coming_soon"
+    status: "available"
     description: "分身系統與計時器應用"
   - week: 7
     title: "電子雞的心情寫照"

@@ -633,6 +633,69 @@ has_children: true
 
 ---
 
+## 📋 全部的程式
+
+{: .important }
+> **💡 完整程式總覽**
+>
+> 這裡整理了遊戲中所有角色的程式積木，方便你檢查和對照！
+> 按照角色分類，一目瞭然！
+
+### 🐣 主角：小雞（Hen）
+
+#### 跑步動畫程式
+<img src="./resources/跑步動畫程式.png" alt="跑步動畫程式" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 跳躍程式（iPad友善版）
+<img src="./resources/跳躍程式_iPad友善版.png" alt="跳躍程式" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 遊戲結束處理
+<img src="./resources/雞角色的遊戲結束.png" alt="遊戲結束" style="max-width: 500px; width: 100%; height: auto;">
+
+---
+
+### 💩 障礙物：大便（Poop）
+
+#### 初始設定（隱藏本體）
+<img src="./resources/障礙物角色程式只有hide.png" alt="障礙物初始設定" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 產生分身程式
+<img src="./resources/障礙物角色程式含分身產生.png" alt="產生分身" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 分身移動與刪除
+<img src="./resources/分身移動沒有碰撞功能.png" alt="分身移動" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 分身碰撞偵測（含蓋章）
+<img src="./resources/分身的移除與碰撞程式.png" alt="碰撞偵測" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 隨機間隔（選做）
+<img src="./resources/讓遊戲更有挑戰性.png" alt="隨機間隔" style="max-width: 500px; width: 100%; height: auto;">
+
+---
+
+### 🎬 舞台（Stage）
+
+#### 遊戲初始化程式
+<img src="./resources/舞台的初始化程式.png" alt="舞台初始化" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 計分系統
+<img src="./resources/在舞台新增程式.png" alt="計分系統" style="max-width: 500px; width: 100%; height: auto;">
+
+#### 遊戲結束處理
+<img src="./resources/舞台當收到遊戲結束時改變遊戲狀態.png" alt="遊戲結束處理" style="max-width: 500px; width: 100%; height: auto;">
+
+{: .highlight }
+> **✨ 檢查清單**
+>
+> 對照上面的程式,確認你的遊戲：
+> - ✅ **小雞**：跑步動畫、跳躍、遊戲結束 3 個程式
+> - ✅ **障礙物**：初始化、產生分身、分身移動、碰撞偵測 4-5 個程式
+> - ✅ **舞台**：初始化、計分、遊戲結束 3 個程式
+>
+> 如果有遺漏,回到前面的章節補上吧！
+
+---
+
 ## 📚 本週課程總結
 
 ### ✅ 你學會了什麼？

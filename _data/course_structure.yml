@@ -18,9 +18,13 @@
   title: "互動遊戲（二）與狀態下降"
   status: "coming_soon"
   description: "亂數與更複雜的遊戲邏輯"
+- week: 5.5
+  title: "小電子雞跑酷遊戲"
+  status: "available"
+  description: "技能整合與完整遊戲開發"
 - week: 6
   title: "自己的便便自己清"
-  status: "coming_soon"
+  status: "available"
   description: "分身系統與計時器應用"
 - week: 7
   title: "電子雞的心情寫照"
