@@ -14,6 +14,26 @@ nav_order: 1
 
 ---
 
+## 🚀 今天第一次上課？快速進入這裡！
+
+<div class="quick-start-box">
+  <div class="qr-code">
+    <img src="{{ site.baseurl }}/assets/images/qr-week1.png" alt="掃描進入第一週課程" />
+    <p>📷 用平板或手機掃描</p>
+  </div>
+  <div class="quick-start-text">
+    <p>不管你用的是<strong>筆電</strong>還是 <strong>iPad</strong>，照著做就能馬上開始：</p>
+    <ol>
+      <li>打開瀏覽器（Chrome / Safari / Edge 都可以）</li>
+      <li>掃描左邊的 QR Code，或是自己打網址：</li>
+    </ol>
+    <p class="quick-start-url">https://pc0808f.github.io/scratchchicken-tutorial/week1/</p>
+    <p>3. 進去之後，找到 <strong>「開始學習」</strong> 按鈕，跟著老師一步一步做！</p>
+  </div>
+</div>
+
+---
+
 ## 🎯 課程特色
 
 ### 🎮 寓教於樂的學習方式

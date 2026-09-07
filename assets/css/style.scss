@@ -441,20 +441,79 @@ ul.task-list li input[type="checkbox"] {
   .btn,
   .status-badge,
   .site-nav,
-  .site-footer {
+  .site-footer,
+  .quick-start-box {
     display: none;
   }
-  
+
   .week-card {
     border: 1px solid #ccc;
     box-shadow: none;
     page-break-inside: avoid;
     margin-bottom: 1rem;
   }
-  
+
   body {
     font-size: 12pt;
     line-height: 1.4;
+  }
+}
+
+/* 快速開始卡片（第一次上課用） */
+.quick-start-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.12), rgba(255, 107, 53, 0.08));
+  border: 2px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.quick-start-box h2 {
+  margin-top: 0;
+}
+
+.quick-start-box .qr-code {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.quick-start-box .qr-code img {
+  width: 160px;
+  height: 160px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.quick-start-box .qr-code p {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.quick-start-box .quick-start-text {
+  flex: 1 1 260px;
+}
+
+.quick-start-box .quick-start-url {
+  display: inline-block;
+  background: white;
+  border: 1px dashed var(--primary-color);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+@media (max-width: 480px) {
+  .quick-start-box {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
