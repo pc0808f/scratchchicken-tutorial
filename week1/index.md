@@ -42,65 +42,61 @@ has_children: true
 ### 📖 第一步：認識 Scratch
 
 #### 🌐 什麼是 Scratch？
-Scratch 是由麻省理工學院（MIT）開發的免費程式設計平台，特別為兒童和青少年設計。使用 Scratch，你可以：
-- 🧩 **拖拉積木**：像玩積木一樣組合程式
-- 🎮 **創作遊戲**：製作互動遊戲和動畫
-- 🎨 **發揮創意**：結合藝術與程式設計
-- 🌍 **分享作品**：與全世界的創作者交流
 
-#### 💻 進入 Scratch 世界
-1. **開啟瀏覽器**，前往 [https://scratch.mit.edu/](https://scratch.mit.edu/)
-2. **點擊「創作」**按鈕開始你的第一個專案
-3. **觀察介面**，看看有哪些區域
+Scratch 就像「積木版」的程式設計！不用打一堆看不懂的英文指令，只要把一塊一塊像樂高一樣的「積木」拖過來、疊起來，就能讓角色動起來、說話、玩遊戲。
 
-### 🏗️ 認識 Scratch 四大區域
-
-<div class="interface-guide">
-<div class="interface-section">
-<h4>🧩 1. 積木區（左側）</h4>
-<p>這裡有各種程式積木，就像積木盒一樣分類整理：</p>
-<ul>
-<li><span class="block-color motion">動作積木（藍色）</span>：控制角色移動、旋轉</li>
-<li><span class="block-color looks">外觀積木（紫色）</span>：改變角色外觀、說話</li>
-<li><span class="block-color sound">音效積木（粉紅色）</span>：播放聲音和音樂</li>
-<li><span class="block-color events">事件積木（黃色）</span>：開始執行程式的觸發器</li>
-<li><span class="block-color control">控制積木（橘色）</span>：重複、等待、條件判斷</li>
-</ul>
+<div class="demo-gallery">
+<img src="./resources/oxxo-scratch標誌.png" alt="Scratch 標誌" class="demo-image">
 </div>
 
-<div class="interface-section">
-<h4>📝 2. 腳本區（中間）</h4>
-<p>這是你的程式創作區域：</p>
-<ul>
-<li>📦 將積木拖拉到這裡組合</li>
-<li>🔗 積木會像拼圖一樣接合</li>
-<li>▶️ 點擊積木就會執行</li>
-<li>🗑️ 拖拉積木到積木區可以刪除</li>
-</ul>
+Scratch 是麻省理工學院（MIT）做的，**完全免費**，全世界已經有 150 多個國家的小朋友在用！
+
+<p class="image-credit">圖片來源：<a href="https://steam.oxxostudio.tw/category/scratch/info/index.html" target="_blank">steam.oxxostudio.tw</a></p>
+
+#### 🚪 怎麼進去 Scratch？
+
+1. **打開瀏覽器**（Chrome、Safari、Edge 都可以）
+2. 在網址列輸入：**scratch.mit.edu**
+3. 看到下面這個畫面後，點一下 **「開始創造」**，就會直接進入編輯器！
+
+<div class="demo-gallery">
+<img src="./resources/oxxo-scratch首頁.png" alt="Scratch 官網首頁，開始創造按鈕" class="demo-image" style="max-width:420px; max-height:230px;">
 </div>
 
-<div class="interface-section">
-<h4>🎭 3. 舞台區（右上）</h4>
-<p>這是你的作品展示區：</p>
-<ul>
-<li>🎬 角色會在這裡表演</li>
-<li>🏠 背景會在這裡顯示</li>
-<li>🖱️ 可以點擊角色互動</li>
-<li>📱 有綠旗（開始）和紅色停止鈕</li>
-</ul>
+<div class="alert alert-info">
+📌 <strong>不用註冊、不用登入！</strong> 今天我們直接點「開始創造」就可以開始玩了，不需要 Email 帳號。想保存作品的話，老師會教大家怎麼把檔案存到電腦裡。
 </div>
 
-<div class="interface-section">
-<h4>👥 4. 角色區（右下）</h4>
-<p>管理你的角色和背景：</p>
-<ul>
-<li>🐱 預設有一隻橘色小貓</li>
-<li>➕ 可以新增更多角色</li>
-<li>🎨 可以編輯角色造型</li>
-<li>🗂️ 切換不同角色的程式</li>
-</ul>
+<p class="image-credit">圖片來源：<a href="https://steam.oxxostudio.tw/category/scratch/info/use-scratch3.html" target="_blank">steam.oxxostudio.tw</a></p>
+
+#### 🀄 切換成中文
+
+如果打開後看到的是「英文版」也不用怕！在網頁**最下面**，找到語言選單，點一下選單，選擇「**繁體中文**」，畫面就會馬上變成中文！
+
+<div class="demo-gallery">
+<img src="./resources/oxxo-切換中文.png" alt="切換成繁體中文的下拉選單" class="demo-image" style="max-width:350px; max-height:100px;">
 </div>
+
+<p class="image-credit">圖片來源：<a href="https://steam.oxxostudio.tw/category/scratch/info/use-scratch3.html" target="_blank">steam.oxxostudio.tw</a></p>
+
+### 🏗️ 認識操作介面
+
+進入編輯器後，畫面會分成好幾個區域。看看下面這張圖，記住每個區域在哪裡：
+
+<div class="demo-gallery">
+<img src="./resources/oxxo-操作介面標示.png" alt="Scratch 操作介面標示圖" class="demo-image" style="max-width:640px; max-height:340px;">
 </div>
+
+<p class="image-credit">圖片來源：<a href="https://steam.oxxostudio.tw/category/scratch/info/interface.html" target="_blank">steam.oxxostudio.tw</a></p>
+
+今天我們只要先記住最重要的 4 個地方：
+
+| 區域 | 在哪裡 | 做什麼用 |
+|---|---|---|
+| 🧩 積木區 | 左邊 | 所有的積木指令都放在這裡 |
+| 📝 腳本區 | 中間 | 把積木拖過來，疊出你的程式 |
+| 🎭 舞台區 | 右上 | 角色表演的地方，按綠旗就會開始 |
+| 👥 角色區 | 右下 | 管理你有哪些角色、背景 |
 
 ### 🎮 第一次體驗：讓貓咪動起來！
 
@@ -419,7 +415,7 @@ Scratch 是由麻省理工學院（MIT）開發的免費程式設計平台，特
 **技能操作**
 - [ ] 獨立開啟 Scratch 並建立專案
 - [ ] 能讓角色執行基本動作
-- [ ] 會保存和分享作品
+- [ ] 知道怎麼把作品存到電腦裡（老師示範）
 
 **問題解決**
 - [ ] 遇到困難時會尋求協助
