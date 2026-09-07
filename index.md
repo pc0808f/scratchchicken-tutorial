@@ -27,7 +27,7 @@ nav_order: 1
       <li>打開瀏覽器（Chrome / Safari / Edge 都可以）</li>
       <li>掃描左邊的 QR Code，或是自己打網址：</li>
     </ol>
-    <p class="quick-start-url">https://pc0808f.github.io/scratchchicken-tutorial/week1/</p>
+    <p class="quick-start-url">tinyurl.com/hpchicken1</p>
     <p>3. 進去之後，找到 <strong>「開始學習」</strong> 按鈕，跟著老師一步一步做！</p>
   </div>
 </div>
