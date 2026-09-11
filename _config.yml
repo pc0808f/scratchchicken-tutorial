@@ -116,7 +116,7 @@ custom:
 course_structure:
   - week: 1
     title: "初探 Scratch，守衛母雞誕生"
-    status: "coming_soon"
+    status: "available"
     description: "認識 Scratch 介面，建立第一隻守衛母雞"
   - week: 2
     title: "老鼠來了！沿小路進攻"
