@@ -4,10 +4,10 @@ title: 首頁
 nav_order: 1
 ---
 
-# 🐣 Scratch 電子雞創客課程
+# 🐔 Scratch 母雞護衛隊塔防課程
 {: .fs-9 }
 
-歡迎來到充滿創意與樂趣的程式設計世界！在這裡，你將學會如何使用 Scratch 創造屬於自己的電子雞夥伴。
+歡迎來到「母雞護衛隊・保衛飼料大作戰」！在這裡，你將使用 Scratch 設計塔防遊戲，讓守衛母雞阻止老鼠大軍偷走飼料。
 {: .fs-6 .fw-300 }
 
 [開始學習](./how-to-learn.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [第一週課程](./week1/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -18,7 +18,7 @@ nav_order: 1
 
 <div class="quick-start-box">
   <div class="qr-code">
-    <img src="{{ site.baseurl }}/assets/images/qr-week1.png" alt="掃描進入第一週課程" />
+    <img src="{{ site.baseurl }}/assets/images/qr-week1.png" alt="掃描進入塔防課程" />
     <p>📷 用平板或手機掃描</p>
   </div>
   <div class="quick-start-text">
@@ -36,8 +36,8 @@ nav_order: 1
 
 ## 🎯 課程特色
 
-### 🎮 寓教於樂的學習方式
-透過大家喜愛的「電子雞」主題，讓程式設計變得生動有趣！
+### 🎮 從真實問題出發
+雞舍有老鼠偷飼料，我們用 Scratch 設計守衛母雞和塔防遊戲，想像如何解決身邊的問題。
 
 ### 🧩 循序漸進的課程設計
 從基礎介面認識到複雜的遊戲邏輯，每一週都有新的挑戰與收穫。
@@ -45,8 +45,8 @@ nav_order: 1
 ### 🤝 培養多元能力
 不只學程式，更培養邏輯思維、創造力、問題解決和團隊合作能力。
 
-### 🌟 展現個人創意
-每個人的電子雞都是獨一無二的，發揮你的想像力創造專屬夥伴！
+### 🌟 展現遊戲創意
+設計自己的小路、砲塔、敵人和防守策略，讓每個人的塔防遊戲都有不同玩法！
 
 ---
 
@@ -54,117 +54,50 @@ nav_order: 1
 
 <div class="course-overview">
 
-<div class="week-card available">
+{% for course in site.data.course_structure %}
+<div class="week-card {{ course.status }}">
   <div class="week-header">
-    <span class="week-number">第 1 週</span>
+    <span class="week-number">第 {{ course.week }} 週</span>
+    {% if course.status == "available" %}
     <span class="status-badge available">開放學習</span>
-  </div>
-  <h3>初探 Scratch 與電子雞的誕生</h3>
-  <p>認識 Scratch 介面，創造電子雞角色</p>
-  <a href="./week1/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card available">
-  <div class="week-header">
-    <span class="week-number">第 2 週</span>
-    <span class="status-badge available">開放學習</span>
-  </div>
-  <h3>讓電子雞動起來！</h3>
-  <p>學習事件觸發與基本動畫製作</p>
-  <a href="./week2/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card available">
-  <div class="week-header">
-    <span class="week-number">第 3 週</span>
-    <span class="status-badge available">開放學習</span>
-  </div>
-  <h3>民以食為天：餵食系統</h3>
-  <p>變數的建立與應用、廣播訊息</p>
-  <a href="./week3/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card available">
-  <div class="week-header">
-    <span class="week-number">第 4 週</span>
-    <span class="status-badge available">開放學習</span>
-  </div>
-  <h3>吃飽也要開心玩：互動遊戲（一）</h3>
-  <p>條件判斷與滑鼠偵測</p>
-  <a href="./week4/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card available">
-  <div class="week-header">
-    <span class="week-number">第 5 週</span>
-    <span class="status-badge available">開放學習</span>
-  </div>
-  <h3>接食物遊戲：讓電子雞動起來</h3>
-  <p>移動控制、隨機系統、分身基礎、iPad友善設計</p>
-  <a href="./week5/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card available">
-  <div class="week-header">
-    <span class="week-number">第 5.5 週</span>
-    <span class="status-badge available">🎮 技能整合</span>
-  </div>
-  <h3>小雞跑酷遊戲</h3>
-  <p>整合前5週技能、自訂積木、畫筆蓋章、完整遊戲開發</p>
-  <a href="./week5.5/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card available">
-  <div class="week-header">
-    <span class="week-number">第 6 週</span>
-    <span class="status-badge available">開放學習</span>
-  </div>
-  <h3>自己的便便自己清</h3>
-  <p>分身系統與計時器應用</p>
-  <a href="./week6/" class="learn-btn">開始學習</a>
-</div>
-
-<div class="week-card coming-soon">
-  <div class="week-header">
-    <span class="week-number">第 7 週</span>
+    {% else %}
     <span class="status-badge coming-soon">建置中</span>
+    {% endif %}
   </div>
-  <h3>電子雞的心情寫照</h3>
-  <p>複雜條件判斷與角色造型切換</p>
+  <h3>{{ course.title }}</h3>
+  <p>{{ course.description }}</p>
+  {% if course.status == "available" %}
+  <a href="./week{{ course.week }}/" class="learn-btn">開始學習</a>
+  {% else %}
   <button class="learn-btn disabled" disabled>敬請期待</button>
+  {% endif %}
 </div>
-
-<div class="week-card coming-soon">
-  <div class="week-header">
-    <span class="week-number">第 8 週</span>
-    <span class="status-badge coming-soon">建置中</span>
-  </div>
-  <h3>從出生到長大（進階選修）</h3>
-  <p>自定義積木與成長系統</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
-</div>
-
-<div class="week-card coming-soon">
-  <div class="week-header">
-    <span class="week-number">第 9 週</span>
-    <span class="status-badge coming-soon">建置中</span>
-  </div>
-  <h3>生命的盡頭：死亡與重生</h3>
-  <p>遊戲狀態管理與重啟機制</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
-</div>
-
-<div class="week-card coming-soon">
-  <div class="week-header">
-    <span class="week-number">第 10 週</span>
-    <span class="status-badge coming-soon">建置中</span>
-  </div>
-  <h3>我的專屬電子雞：成果發表</h3>
-  <p>專案優化與表達能力</p>
-  <button class="learn-btn disabled" disabled>敬請期待</button>
-</div>
+{% endfor %}
 
 </div>
+
+---
+
+## 📋 14 週學習目標
+
+每週約 45 分鐘有效教學時間，先完成一個核心成果，再利用剩餘時間處理操作問題與除錯。表定 90 分鐘中的其他時間，會依學生進度彈性安排練習與協助。
+
+| 週次 | 學生這週要學會什麼 | 完成後的作品成果 |
+|---|---|---|
+| 第 1 週 | 認識 Scratch，加入 `hen` 並修改角色顏色 | 擁有自己的守衛母雞角色 |
+| 第 2 週 | 補完介面與存檔操作，認識事件和基本移動 | 建立塔防背景，開始畫出老鼠小路 |
+| 第 3 週 | 使用點擊和條件判斷 | 點擊固定砲位，放置守衛母雞 |
+| 第 4 週 | 認識分身和碰撞偵測 | 母雞發射雞蛋，擊中老鼠 |
+| 第 5 週 | 使用造型切換和防呆判斷 | 砲塔有開火動畫，不能重複或錯誤放置 |
+| 第 6 週 | 使用分身、計時和隨機數 | 老鼠會一隻隻出現，並加入第二種老鼠 |
+| 第 7 週 | 整合程式並練習測試和除錯 | 完成第一版可以玩一場的塔防遊戲 |
+| 第 8 週 | 認識變數、廣播和波次控制 | 老鼠會一波接一波進攻 |
+| 第 9 週 | 使用變數運算和條件判斷 | 擊退老鼠賺金幣，放置砲塔需要花錢 |
+| 第 10 週 | 設計選單和選擇流程 | 完成可以選擇砲塔的商店 |
+| 第 11 週 | 比較不同砲塔的速度和射程 | 新增第二種特色砲塔：戰鬥雞 |
+| 第 12 週 | 認識角色專屬變數和血量 | 老鼠有血條，並能調整遊戲難度 |
+| 第 13 週 | 使用範圍判定和多目標攻擊 | 完成能同時攻擊多隻老鼠的雷射母雞 |
+| 第 14 週 | 管理勝負狀態、升級和作品表達 | 完成塔防遊戲、成果發表並分享設計想法 |
 
 ---
 
@@ -173,10 +106,10 @@ nav_order: 1
 完成這個課程後，你將能夠：
 
 - ✅ **熟練操作 Scratch**：掌握程式設計的基本概念和技能
-- ✅ **創作電子雞遊戲**：具備完整的照護、互動和成長系統
+- ✅ **創作塔防遊戲**：完成從老鼠進攻到砲塔防守的遊戲系統
 - ✅ **培養邏輯思維**：學會分析問題和設計解決方案
-- ✅ **展現創意能力**：設計獨特的角色和遊戲機制
-- ✅ **建立合作精神**：與同學互相學習和幫助
+- ✅ **展現創意能力**：設計獨特的路線、砲塔和防守策略
+- ✅ **建立合作精神**：透過互測、除錯和成果發表互相學習
 
 ---
 
@@ -189,7 +122,7 @@ nav_order: 1
 
 ### 🌐 軟體需求
 - 任何現代瀏覽器（Chrome、Firefox、Safari、Edge）
-- 免費的 Scratch 帳號（課程中會教你註冊）
+- Scratch 3.0 帳號或可存檔的 Scratch 使用方式
 
 ### 🎒 學習用品
 - 筆記本和筆（記錄創意想法）
@@ -204,7 +137,7 @@ nav_order: 1
 1. **按照順序學習**：每一週的內容都是基於前一週的基礎
 2. **動手實作**：程式設計最重要的是多練習
 3. **發揮創意**：不要害怕嘗試新想法
-4. **互相分享**：和同學分享作品，一起學習成長
+4. **互相分享**：和同學互測塔防遊戲，一起找出並修正問題
 
 ### 🎯 第一步
 如果你是第一次學習，建議從這裡開始：
@@ -241,7 +174,7 @@ nav_order: 1
 讓我們一起踏上這段精彩的程式設計學習之旅！  
 記住：每一個偉大的程式設計師都是從第一行程式碼開始的。
 
-**你的電子雞夥伴正在等待誕生，快來創造它吧！** 🐣✨
+**守衛母雞已經就位，快來設計你的防守策略吧！** 🐔🛡️
 
 ---
 

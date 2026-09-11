@@ -1,9 +1,9 @@
 # GitHub Pages 設定檔
-# Scratch 電子雞創客課程教學網站
+# Scratch 母雞護衛隊塔防課程教學網站
 
 # 網站基本資訊
-title: "Scratch 電子雞創客課程"
-description: "國小四五年級程式設計創客教學 - 透過電子雞養成學習 Scratch 程式設計"
+title: "Scratch 母雞護衛隊塔防課程"
+description: "國小四、五年級程式設計創客教學 - 透過保衛飼料的塔防遊戲學習 Scratch 程式設計"
 baseurl: "/scratchchicken-tutorial" # GitHub Pages 子目錄名稱
 url: "https://pc0808f.github.io" # 替換為你的 GitHub Pages 網址
 
@@ -92,7 +92,7 @@ social:
 # 搜尋引擎最佳化
 seo:
   type: Website
-  name: Scratch 電子雞創客課程
+  name: Scratch 母雞護衛隊塔防課程
   links:
     - https://pc0808f.github.io/scratchchicken-tutorial
 
@@ -100,8 +100,8 @@ seo:
 custom:
   course_info:
     grade: "國小四、五年級"
-    duration: "10週課程"
-    time_per_week: "75分鐘"
+    duration: "14週課程"
+    time_per_week: "表定90分鐘，約45分鐘有效教學"
     platform: "Scratch 3.0"
   
   contact:
@@ -115,46 +115,58 @@ custom:
 # 課程結構
 course_structure:
   - week: 1
-    title: "初探 Scratch 與電子雞的誕生"
-    status: "available"
-    description: "認識 Scratch 介面，創造電子雞角色"
+    title: "初探 Scratch，守衛母雞誕生"
+    status: "coming_soon"
+    description: "認識 Scratch 介面，建立第一隻守衛母雞"
   - week: 2
-    title: "讓電子雞動起來！"
-    status: "available"
-    description: "學習事件觸發與基本動畫製作"
+    title: "老鼠來了！沿小路進攻"
+    status: "coming_soon"
+    description: "補完 Scratch 基礎，讓老鼠沿著小路移動"
   - week: 3
-    title: "民以食為天：餵食系統"
-    status: "available"
-    description: "變數的建立與應用、廣播訊息"
+    title: "母雞就位！免費放置砲塔"
+    status: "coming_soon"
+    description: "點擊固定砲位，建立第一座守衛母雞砲塔"
   - week: 4
-    title: "吃飽也要開心玩：互動遊戲（一）"
+    title: "發射雞蛋！自動攻擊"
     status: "coming_soon"
-    description: "條件判斷與滑鼠偵測"
+    description: "用分身製作雞蛋，讓砲塔自動攻擊老鼠"
   - week: 5
-    title: "接食物遊戲：讓電子雞動起來"
-    status: "available"
-    description: "移動控制、隨機系統、分身基礎、iPad友善設計"
-  - week: 5.5
-    title: "小電子雞跑酷遊戲"
-    status: "available"
-    description: "技能整合與完整遊戲開發"
+    title: "砲塔美化與防呆"
+    status: "coming_soon"
+    description: "加入砲塔動畫，避免重複或錯誤放置"
   - week: 6
-    title: "自己的便便自己清"
-    status: "available"
-    description: "分身系統與計時器應用"
+    title: "鼠潮生成器與第二種老鼠"
+    status: "coming_soon"
+    description: "用分身生成老鼠，加入速度不同的敵人"
   - week: 7
-    title: "電子雞的心情寫照"
+    title: "整合週：第一版可以玩的塔防"
     status: "coming_soon"
-    description: "複雜條件判斷與角色造型切換"
+    description: "整合前六週功能，完成第一版塔防遊戲"
   - week: 8
-    title: "從出生到長大（進階選修）"
+    title: "波次系統：一波接一波"
     status: "coming_soon"
-    description: "自定義積木與成長系統"
+    description: "用變數和廣播控制一波又一波的老鼠進攻"
   - week: 9
-    title: "生命的盡頭：死亡與重生"
+    title: "金幣經濟：防守要花錢"
     status: "coming_soon"
-    description: "遊戲狀態管理與重啟機制"
+    description: "建立金幣獎勵與砲塔購買機制"
   - week: 10
-    title: "我的專屬電子雞：成果發表"
+    title: "完整砲塔商店"
     status: "coming_soon"
-    description: "專案優化與表達能力"
+    description: "設計商店，讓玩家選擇不同砲塔"
+  - week: 11
+    title: "第二種砲塔：戰鬥雞"
+    status: "coming_soon"
+    description: "調整射速與射程，製作不同特色的砲塔"
+  - week: 12
+    title: "血條與更多敵人"
+    status: "coming_soon"
+    description: "加入敵人血量、血條與難度變化"
+  - week: 13
+    title: "雷射母雞：穿透攻擊"
+    status: "coming_soon"
+    description: "製作能同時攻擊多隻老鼠的進階武器"
+  - week: 14
+    title: "生命值、Game Over、升級與成果發表"
+    status: "coming_soon"
+    description: "完成勝負系統、升級功能與塔防作品發表"
