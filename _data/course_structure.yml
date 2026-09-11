@@ -4,11 +4,11 @@
   description: "認識 Scratch 介面，建立第一隻守衛母雞"
 - week: 2
   title: "老鼠來了！沿小路進攻"
-  status: "coming_soon"
+  status: "available"
   description: "補完 Scratch 基礎，讓老鼠沿著小路移動"
 - week: 3
   title: "母雞就位！免費放置砲塔"
-  status: "coming_soon"
+  status: "available"
   description: "點擊固定砲位，建立第一座守衛母雞砲塔"
 - week: 4
   title: "發射雞蛋！自動攻擊"
