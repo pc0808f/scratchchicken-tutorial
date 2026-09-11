@@ -5,97 +5,80 @@ nav_order: 4
 has_children: true
 ---
 
-# 🏕️ 第二週：建立塔防基地
-{: .fs-9 }
+<div class="ebook-course week-two-book">
+  <div class="ebook-toolbar"><strong>Scratch 母雞護衛隊</strong><span>第二週：建立塔防基地</span><span>A4 教材預覽</span></div>
+  <main class="book-spread">
+    <section class="book-page cover-page">
+      <div class="page-kicker">SCRATCH CREATIVE CODING</div><div class="cover-number">02</div><div class="cover-art">⌂</div>
+      <h1>建立塔防<br><em>基地。</em></h1><p class="cover-subtitle">第二週學習單</p><div class="cover-rule"></div>
+      <p class="cover-description">補完 Scratch 基本操作，畫出老鼠洞、行走路線和需要保護的飼料桶。</p>
+      <div class="cover-footer"><span>母雞護衛隊・保衛飼料大作戰</span><span>01</span></div>
+    </section>
 
-上週我們完成了守衛母雞的角色設計。這一週先補上 Scratch 的基本操作，再為塔防遊戲建立背景和老鼠行走的路線。
-{: .fs-6 .fw-300 }
+    <section class="book-page content-page">
+      <div class="page-header"><span>WEEK 02</span><span>學習目標</span></div><h2>今天要完成什麼？</h2>
+      <p class="lead">上週我們完成了守衛母雞。這週先把 Scratch 的基本操作補齊，再建立第一張塔防地圖。</p>
+      <div class="goal-box"><span>CORE MISSION</span><strong>畫出你的塔防基地</strong><p>完成後，舞台上要有老鼠洞、行走路線和飼料桶的位置。</p></div>
+      <h3>本週學習目標</h3><ul class="check-list"><li>說出舞台、角色、積木區和腳本區的用途</li><li>儲存專案並重新開啟自己的作品</li><li>找到背景編輯器與繪圖工具</li><li>畫出老鼠洞到飼料桶的路線</li></ul>
+      <div class="note-box"><strong>進度提醒：</strong>如果存檔或介面操作花比較久，路線先完成草稿即可，老鼠完整移動下週再做。</div>
+      <div class="page-footer"><span>Scratch 母雞護衛隊</span><span>02</span></div>
+    </section>
 
-[開始學習](#學習內容){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+    <section class="book-page content-page">
+      <div class="page-header"><span>STEP 01</span><span>熟悉工作區</span></div><h2>找到你的工作桌</h2>
+      <p class="lead">今天只需要認識四個區域。先能找到要操作的位置，比一次記住所有按鈕更重要。</p>
+      <div class="large-resource interface-resource"><img src="{{ '/week2/resources/SCRATCH畫面.jpg' | relative_url }}" alt="Scratch 編輯器完整畫面"><span>先找到四個工作區，再開始操作。</span></div>
+      <div class="interface-legend"><div><b>① 舞台區</b><span>預覽遊戲畫面</span></div><div><b>② 角色區</b><span>選擇要編輯的角色</span></div><div><b>③ 積木區</b><span>找到程式積木</span></div><div><b>④ 腳本區</b><span>組合程式積木</span></div></div>
+      <h3>專案存檔</h3><div class="numbered-step"><span>1</span><p>為專案取一個容易辨認的名字，例如「我的母雞防守隊」。</p></div><div class="numbered-step"><span>2</span><p>儲存專案後關閉或回到 Scratch 首頁。</p></div><div class="numbered-step"><span>3</span><p>重新開啟作品，確認 hen 和顏色都還在。</p></div>
+      <div class="teacher-note"><strong>老師提醒</strong><br>使用未登入的 Scratch 時，請依老師指定方式下載或保留專案檔案。</div>
+      <div class="page-footer"><span>第二週・介面與存檔</span><span>03</span></div>
+    </section>
 
----
+    <section class="book-page content-page">
+      <div class="page-header"><span>STEP 03</span><span>先看完成目標</span></div><h2>安排老鼠的路</h2>
+      <p class="lead">先看完整成品，再回頭一步一步製作。這張圖就是今天要完成的塔防基地，不包含砲位。</p>
+      <div class="large-resource hero-resource"><img src="{{ '/week2/resources/有鼠洞和飼料盒的背景.jpg' | relative_url }}" alt="有老鼠洞和飼料盒的完整塔防背景"><span>完成目標：老鼠洞 → 路徑 → 飼料盒</span></div>
+      <div class="target-list"><span><b class="dot hole"></b>起點：老鼠洞</span><span><b class="dot road"></b>中間：老鼠道路</span><span><b class="dot feed"></b>終點：飼料盒</span></div>
+      <div class="teacher-note"><strong>先不畫砲位：</strong>本週先完成背景和路徑，固定砲位、空蛋和母雞會在第 3 週製作。</div>
+      <div class="page-footer"><span>第二週・完成目標</span><span>05</span></div>
+    </section>
 
-## 🎯 本週學習目標
+    <section class="book-page content-page"><div class="page-header"><span>STEP 04A</span><span>進入舞台</span></div><h2>先進入背景編輯</h2><p class="lead">依序點下進入舞台，準備開始畫背景。</p><div class="large-process two"><div><img src="{{ '/week2/resources/點下進入舞台1.jpg' | relative_url }}" alt="點下進入舞台一"><span>01 點下進入舞台</span></div><div><img src="{{ '/week2/resources/點下進入舞台2.jpg' | relative_url }}" alt="點下進入舞台二"><span>02 進入背景編輯</span></div></div><div class="page-footer"><span>第二週・進入舞台</span><span>06</span></div></section>
 
-完成本週課程後，你將能夠：
+    <section class="book-page content-page"><div class="page-header"><span>STEP 04B</span><span>開始畫線</span></div><h2>畫出道路的第一筆</h2><p class="lead">先選擇畫線工具，再拉出一條道路。</p><div class="large-process two"><div><img src="{{ '/week2/resources/選一下畫線.jpg' | relative_url }}" alt="選擇畫線工具"><span>01 選一下畫線</span></div><div><img src="{{ '/week2/resources/拉出一條線.jpg' | relative_url }}" alt="拉出一條線"><span>02 拉出一條線</span></div></div><div class="page-footer"><span>第二週・開始畫路</span><span>07</span></div></section>
 
-- ✅ 說出 Scratch 舞台、角色、積木區和腳本區的用途
-- ✅ 儲存專案，並能重新開啟自己的作品
-- ✅ 使用綠旗啟動程式
-- ✅ 使用基本移動和說話積木
-- ✅ 畫出「老鼠洞 → 飼料桶」的塔防路線
+    <section class="book-page content-page"><div class="page-header"><span>STEP 04C</span><span>調整路線</span></div><h2>把道路放到正確位置</h2><p class="lead">先調整線的位置，再切換曲線工具。</p><div class="large-process two"><div><img src="{{ '/week2/resources/把線拉到下面這個位置.jpg' | relative_url }}" alt="把線拉到指定位置"><span>01 拉到指定位置</span></div><div><img src="{{ '/week2/resources/點一下曲線工具.jpg' | relative_url }}" alt="點選曲線工具"><span>02 點一下曲線工具</span></div></div><div class="page-footer"><span>第二週・調整路線</span><span>08</span></div></section>
 
-## 🕒 本週 45 分鐘流程
+    <section class="book-page content-page"><div class="page-header"><span>STEP 04D</span><span>拉出完整路線</span></div><h2>讓道路彎向飼料盒</h2><p class="lead">點擊中間線段開始變形，再把道路拉成想要的路徑。</p><div class="large-process two"><div><img src="{{ '/week2/resources/點一下中間線段開始變型.jpg' | relative_url }}" alt="點擊中間線段變形"><span>01 點擊中間線段</span></div><div><img src="{{ '/week2/resources/拉出你要的路經.jpg' | relative_url }}" alt="拉出想要的路徑"><span>02 拉出想要的路徑</span></div></div><div class="page-footer"><span>第二週・完成道路形狀</span><span>09</span></div></section>
 
-| 時間 | 活動 | 完成標準 |
-|---|---|---|
-| 5 分鐘 | 開啟上週作品並回顧守衛母雞 | 每位學生都能找到自己的 `hen` 專案 |
-| 10 分鐘 | 認識常用介面與專案存檔 | 能儲存並重新開啟專案 |
-| 8 分鐘 | 使用綠旗、移動和說話積木 | `hen` 能移動或說一句話 |
-| 17 分鐘 | 建立塔防背景與老鼠小路 | 舞台上有起點、路線和飼料桶位置 |
-| 5 分鐘 | 互測、存檔與記錄問題 | 能展示自己的路線，並知道下週從哪裡接續 |
+    <section class="book-page content-page"><div class="page-header"><span>STEP 04E</span><span>道路樣式</span></div><h2>加粗，再選顏色</h2><p class="lead">道路形狀完成後，調整線條粗細，再換成你喜歡的顏色。</p><div class="large-process two"><div><img src="{{ '/week2/resources/把線加粗到90.jpg' | relative_url }}" alt="把線加粗到九十"><span>01 加粗到 90</span></div><div><img src="{{ '/week2/resources/改成你喜歡的顏色.jpg' | relative_url }}" alt="修改道路顏色"><span>02 改成喜歡的顏色</span></div></div><div class="page-footer"><span>第二週・道路樣式</span><span>10</span></div></section>
 
-如果前半段的介面或存檔問題較多，背景路線只完成草稿即可，老鼠角色和完整移動會順延到下一週。
+    <section class="book-page content-page"><div class="page-header"><span>STEP 05</span><span>完成背景</span></div><h2>最後才加入草地</h2><p class="lead">道路完成後，才拉出草地方塊並移到最下層，避免把道路蓋住。</p><div class="large-process two"><div><img src="{{ '/week2/resources/拉出方塊做草地，同時調整顏色.jpg' | relative_url }}" alt="建立草地並調整顏色"><span>01 拉出草地方塊</span></div><div><img src="{{ '/week2/resources/把草地移到最下層.jpg' | relative_url }}" alt="把草地移到最下層"><span>02 移到最下層</span></div></div><div class="page-footer"><span>第二週・草地背景</span><span>11</span></div></section>
 
-## 📚 學習內容
+    <section class="book-page content-page"><div class="page-header"><span>STEP 06</span><span>完成基地</span></div><h2>加上起點和終點</h2><p class="lead">最後補上老鼠洞和飼料盒，讓學生知道老鼠從哪裡出發、要保護什麼。</p><div class="large-process two"><div><img src="{{ '/week2/resources/在開始的位置加上米奇洞.jpg' | relative_url }}" alt="在起點加上老鼠洞"><span>01 加上老鼠洞</span></div><div><img src="{{ '/week2/resources/在終點加上飼料盒.jpg' | relative_url }}" alt="在終點加上飼料盒"><span>02 加上飼料盒</span></div></div><div class="page-footer"><span>第二週・完成塔防背景</span><span>12</span></div></section>
 
-### 1. 找到 Scratch 的重要區域
+    <section class="book-page content-page">
+      <div class="page-header"><span>STEP 06</span><span>儲存與整理</span></div><h2>把基地留給下週</h2>
+      <p class="lead">這一週沒有要執行完整遊戲。地圖完成後，確認背景清楚、專案已儲存，下一週再加入老鼠和程式。</p>
+      <div class="numbered-step"><span>1</span><p>確認老鼠洞、小路和飼料盒都在舞台上。</p></div><div class="numbered-step"><span>2</span><p>確認道路沒有被草地蓋住，起點和終點清楚。</p></div><div class="numbered-step"><span>3</span><p>為專案命名並儲存，依老師指定方式保留作品。</p></div>
+      <div class="mini-check"><strong>本週完成</strong><span>背景完成 → 存檔 → 下週加入老鼠</span></div>
+      <div class="page-footer"><span>第二週・儲存與整理</span><span>13</span></div>
+    </section>
 
-今天只需要認識四個區域：
+    <section class="book-page content-page final-page">
+      <div class="page-header"><span>CHECKPOINT</span><span>下課前檢查</span></div><h2>基地準備好了嗎？</h2>
+      <div class="print-checklist"><label><input type="checkbox"> 我知道四個 Scratch 重要區域</label><label><input type="checkbox"> 我能儲存並重新開啟專案</label><label><input type="checkbox"> 我找到背景編輯器和繪圖工具</label><label><input type="checkbox"> 背景有老鼠洞、小路和飼料盒</label></div>
+      <div class="next-page-box"><span>NEXT WEEK</span><h3>老鼠來了！</h3><p>下週加入 Scratch 內建 Mouse1，讓老鼠沿著今天畫好的路線前進，再設計固定砲位。</p></div>
+      <div class="reflection-lines"><p>我的塔防基地名稱：</p><div></div><p>我最想保護的東西：</p><div></div></div><div class="page-footer"><span>母雞護衛隊・第二週</span><span>14</span></div>
+    </section>
+  </main>
+</div>
 
-| 區域 | 用途 |
-|---|---|
-| 舞台區 | 預覽遊戲畫面 |
-| 角色區 | 選擇要編輯的角色 |
-| 積木區 | 找到可以使用的程式積木 |
-| 腳本區 | 把積木組合成程式 |
-
-不用一次記住所有按鈕，先能找到要操作的位置就可以。
-
-### 2. 儲存和重新開啟專案
-
-1. 為專案取一個容易辨認的名稱，例如「我的母雞防守隊」。
-2. 儲存專案。
-3. 關閉或回到 Scratch 首頁。
-4. 重新開啟專案，確認守衛母雞和顏色還在。
-
-> 如果使用未登入的 Scratch，請依老師指定的方式下載或保留專案檔案，避免下課後找不到作品。
-
-### 3. 讓守衛母雞做出第一個動作
-
-在 `hen` 角色加入最簡單的程式：
-
-```text
-當綠旗被點擊
-移動 10 點
-說「我來保護飼料！」 2 秒
-```
-
-重點不是做出完整遊戲，而是理解：綠旗啟動後，積木會按照由上到下的順序執行。
-
-### 4. 畫出塔防背景
-
-可以使用舞台的背景編輯器，先畫出簡單版本：
-
-- 老鼠洞：老鼠出現的位置
-- 小路：老鼠要走過的路線
-- 飼料桶：需要被保護的位置
-- 砲塔預定區：下週要放置母雞的位置
-
-先用簡單的線條和色塊即可，不要求漂亮。路線要清楚，之後才容易安排老鼠移動。
-
-## ✅ 下課前檢查
-
-- [ ] 我知道舞台區、角色區、積木區和腳本區的位置
-- [ ] 我能儲存並重新開啟專案
-- [ ] 我的 `hen` 能在綠旗後移動或說話
-- [ ] 我的背景有老鼠洞、小路和飼料桶
-- [ ] 我已經完成存檔或依老師方式保留作品
-
-## ⏭️ 第三週接續內容
-
-下週會加入 Scratch 內建的 `Mouse1` 老鼠，讓老鼠沿著這週畫好的路線前進，再開始設計固定砲位和守衛母雞的放置方式。
-
-## 🐔 給家長
-
-本週會先補足學生使用 Scratch 必要的基本操作。課程不要求一次完成完整塔防遊戲，而是先確保每位學生能找到自己的作品、成功存檔，並完成一張看得懂的塔防地圖。
+<style>
+.site-header{background:#fff;border-top:4px solid #17221e;border-bottom:1px solid #d9ded7}.site-header .site-title,.site-header .page-link{color:#17221e}.site-header .page-link:hover{color:#ff704b;text-decoration:none}.page-content{padding:0}.page-content>.wrapper{max-width:none;padding:0}
+.ebook-course{--ink:#17221e;--paper:#fff;--cream:#e8ebe6;--lime:#d7f36b;--orange:#ff704b;background:var(--cream);padding:2.5rem 1.5rem 5rem;color:var(--ink);font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif}.ebook-toolbar{max-width:210mm;margin:0 auto 1.2rem;display:flex;justify-content:space-between;gap:1rem;color:#657169;font-size:.75rem;letter-spacing:.04em}.book-spread{max-width:210mm;margin:auto;display:block}.book-page{width:210mm;max-width:100%;min-height:297mm;margin:0 auto 1.5rem;background:var(--paper);padding:16mm 14mm 14mm;position:relative;box-shadow:0 4px 18px rgba(23,34,30,.13);break-after:page}.cover-page{background:var(--ink);color:#fff;overflow:hidden}.cover-page:after{content:"";position:absolute;width:180mm;height:180mm;border:1px solid rgba(215,243,107,.25);border-radius:50%;right:-105mm;bottom:-45mm}.page-kicker,.page-header,.cover-footer{font-size:8pt;letter-spacing:.16em;font-weight:900}.page-kicker{color:var(--orange)}.cover-number{font-size:70pt;color:var(--lime);font-weight:900;line-height:1;margin-top:18mm}.cover-art{position:absolute;right:18mm;top:32mm;color:var(--lime);font-size:85pt;line-height:1}.cover-page h1{color:#fff;font-size:35pt;letter-spacing:-.09em;line-height:.95;margin:48mm 0 4mm;position:relative}.cover-page h1 em{color:var(--lime);font-style:normal}.cover-subtitle{color:#b8c3ba;letter-spacing:.12em}.cover-rule{height:3px;background:var(--orange);width:24mm;margin:15mm 0 7mm}.cover-description{color:#b8c3ba;font-size:10pt;line-height:1.8;max-width:65mm}.cover-footer{position:absolute;bottom:10mm;left:14mm;right:14mm;display:flex;justify-content:space-between;color:#93a096}.page-header{display:flex;justify-content:space-between;color:#758078;border-bottom:1px solid #d9ded7;padding-bottom:4mm}.content-page h2{font-size:25pt;letter-spacing:-.07em;line-height:1.1;margin:12mm 0 5mm}.content-page h3{font-size:13pt;margin:8mm 0 3mm}.lead{font-size:10.5pt;line-height:1.8;color:#536158}.goal-box{background:#eaf3c9;border-left:5px solid var(--lime);padding:6mm;margin:10mm 0}.goal-box span,.next-page-box span{display:block;color:#63703c;font-size:8pt;letter-spacing:.16em;font-weight:900}.goal-box strong{display:block;font-size:17pt;margin:2mm 0}.goal-box p{font-size:9.5pt;margin:0;line-height:1.6}.check-list{list-style:none;padding:0;margin:0}.check-list li{padding:3mm 0;border-bottom:1px solid #e5e8e3;font-size:10pt}.check-list li:before{content:"✓";font-weight:900;color:var(--orange);margin-right:3mm}.note-box,.teacher-note{margin-top:12mm;border:1px solid #cbd3cb;padding:4mm;font-size:9pt;line-height:1.7}.area-list{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:8mm}.area-list div{padding:5mm;background:#eef1ed;border-left:4px solid var(--orange)}.area-list b,.area-list span{display:block}.area-list b{font-size:11pt}.area-list span{font-size:9pt;color:#536158;margin-top:1mm}.numbered-step{display:flex;gap:4mm;align-items:flex-start;padding:3mm 0;border-bottom:1px solid #e5e8e3}.numbered-step span{flex:0 0 auto;width:8mm;height:8mm;border-radius:50%;background:var(--ink);color:var(--lime);display:grid;place-items:center;font-size:8pt;font-weight:900}.numbered-step p{margin:1mm 0 0;font-size:9.5pt;line-height:1.5}.code-card{border:1px solid #cbd3cb;margin:9mm 0;padding:5mm}.code-title{font-size:8pt;letter-spacing:.15em;font-weight:900;color:#758078;margin-bottom:4mm}.code-block{display:grid;gap:2mm}.code-block span{padding:3mm 4mm;border-radius:2mm;font-size:9pt;font-weight:700}.event-block{background:#ffbf3f}.motion-block{background:#5cb8ed}.looks-block{background:#9f79db;color:#fff}.mini-check{margin-top:10mm;padding:5mm;background:#17221e;color:#fff}.mini-check strong,.mini-check span{display:block}.mini-check strong{color:#d7f36b;font-size:8pt;letter-spacing:.15em}.mini-check span{margin-top:2mm;font-size:10pt}.map-card{height:80mm;position:relative;overflow:hidden;background:#e7eadf;border:1px solid #cbd3cb;margin:8mm 0}.map-hole,.map-feed,.map-tower{position:absolute;z-index:2;padding:3mm 4mm;font-size:8pt;font-weight:900;border-radius:1mm}.map-hole{left:8%;top:12%;background:#ff704b;color:#fff}.map-feed{right:8%;bottom:13%;background:#17221e;color:#d7f36b}.map-road{position:absolute;border:8px solid #b49b72;border-left-color:transparent;border-radius:50%}.road-one{width:75%;height:65%;left:11%;top:18%;transform:rotate(-15deg)}.road-two{width:38%;height:50%;left:42%;top:2%;transform:rotate(55deg)}.map-tower{background:#d7f36b;color:#17221e}.tower-a{left:35%;top:16%}.tower-b{right:30%;bottom:15%}.map-legend{display:flex;flex-wrap:wrap;gap:5mm;font-size:8pt;color:#536158}.dot{display:inline-block;width:3mm;height:3mm;border-radius:50%;margin-right:1mm}.dot.hole{background:#ff704b}.dot.road{background:#b49b72}.dot.feed{background:#17221e}.print-checklist{display:grid;gap:4mm;margin:10mm 0}.print-checklist label{border:1px solid #cbd3cb;padding:5mm;font-size:10pt}.print-checklist input{width:5mm;height:5mm;margin-right:3mm;accent-color:var(--orange)}.next-page-box{background:#eaf3c9;padding:6mm;margin-top:14mm}.next-page-box h3{font-size:19pt;margin:2mm 0}.next-page-box p{font-size:9.5pt;line-height:1.6;margin:0}.reflection-lines{margin-top:12mm;font-size:9.5pt}.reflection-lines div{border-bottom:1px solid #929c94;height:10mm}.page-footer{position:absolute;bottom:8mm;left:14mm;right:14mm;border-top:1px solid #d9ded7;padding-top:3mm;display:flex;justify-content:space-between;color:#758078;font-size:8pt;letter-spacing:.06em}
+.ebook-course{--ink:#17221e;--paper:#fff;--cream:#e8ebe6;--lime:#d7f36b;--orange:#ff704b;background:var(--cream);padding:2.5rem 1.5rem 5rem;color:var(--ink);font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif}.ebook-toolbar{max-width:210mm;margin:0 auto 1.2rem;display:flex;justify-content:space-between;gap:1rem;color:#657169;font-size:.75rem;letter-spacing:.04em}.book-spread{max-width:210mm;margin:auto;display:block}.book-page{width:210mm;max-width:100%;min-height:297mm;margin:0 auto 1.5rem;background:var(--paper);padding:16mm 14mm 14mm;position:relative;box-shadow:0 4px 18px rgba(23,34,30,.13);break-after:page}.cover-page{background:var(--ink);color:#fff;overflow:hidden}.cover-page:after{content:"";position:absolute;width:180mm;height:180mm;border:1px solid rgba(215,243,107,.25);border-radius:50%;right:-105mm;bottom:-45mm}.page-kicker,.page-header,.cover-footer{font-size:8pt;letter-spacing:.16em;font-weight:900}.page-kicker{color:var(--orange)}.cover-number{font-size:70pt;color:var(--lime);font-weight:900;line-height:1;margin-top:18mm}.cover-art{position:absolute;right:18mm;top:32mm;color:var(--lime);font-size:85pt;line-height:1}.cover-page h1{color:#fff;font-size:35pt;letter-spacing:-.09em;line-height:.95;margin:48mm 0 4mm;position:relative}.cover-page h1 em{color:var(--lime);font-style:normal}.cover-subtitle{color:#b8c3ba;letter-spacing:.12em}.cover-rule{height:3px;background:var(--orange);width:24mm;margin:15mm 0 7mm}.cover-description{color:#b8c3ba;font-size:10pt;line-height:1.8;max-width:65mm}.cover-footer{position:absolute;bottom:10mm;left:14mm;right:14mm;display:flex;justify-content:space-between;color:#93a096}.page-header{display:flex;justify-content:space-between;color:#758078;border-bottom:1px solid #d9ded7;padding-bottom:4mm}.content-page h2{font-size:25pt;letter-spacing:-.07em;line-height:1.1;margin:12mm 0 5mm}.content-page h3{font-size:13pt;margin:8mm 0 3mm}.lead{font-size:10.5pt;line-height:1.8;color:#536158}.goal-box{background:#eaf3c9;border-left:5px solid var(--lime);padding:6mm;margin:10mm 0}.goal-box span,.next-page-box span{display:block;color:#63703c;font-size:8pt;letter-spacing:.16em;font-weight:900}.goal-box strong{display:block;font-size:17pt;margin:2mm 0}.goal-box p{font-size:9.5pt;margin:0;line-height:1.6}.check-list{list-style:none;padding:0;margin:0}.check-list li{padding:3mm 0;border-bottom:1px solid #e5e8e3;font-size:10pt}.check-list li:before{content:"✓";font-weight:900;color:var(--orange);margin-right:3mm}.note-box,.teacher-note{margin-top:12mm;border:1px solid #cbd3cb;padding:4mm;font-size:9pt;line-height:1.7}.area-list{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:8mm}.area-list div{padding:5mm;background:#eef1ed;border-left:4px solid var(--orange)}.area-list b,.area-list span{display:block}.area-list b{font-size:11pt}.area-list span{font-size:9pt;color:#536158;margin-top:1mm}.numbered-step{display:flex;gap:4mm;align-items:flex-start;padding:3mm 0;border-bottom:1px solid #e5e8e3}.numbered-step span{flex:0 0 auto;width:8mm;height:8mm;border-radius:50%;background:var(--ink);color:var(--lime);display:grid;place-items:center;font-size:8pt;font-weight:900}.numbered-step p{margin:1mm 0 0;font-size:9.5pt;line-height:1.5}.code-card{border:1px solid #cbd3cb;margin:9mm 0;padding:5mm}.code-title{font-size:8pt;letter-spacing:.15em;font-weight:900;color:#758078;margin-bottom:4mm}.code-block{display:grid;gap:2mm}.code-block span{padding:3mm 4mm;border-radius:2mm;font-size:9pt;font-weight:700}.event-block{background:#ffbf3f}.motion-block{background:#5cb8ed}.looks-block{background:#9f79db;color:#fff}.mini-check{margin-top:10mm;padding:5mm;background:#17221e;color:#fff}.mini-check strong,.mini-check span{display:block}.mini-check strong{color:#d7f36b;font-size:8pt;letter-spacing:.15em}.mini-check span{margin-top:2mm;font-size:10pt}.map-card{height:80mm;position:relative;overflow:hidden;background:#e7eadf;border:1px solid #cbd3cb;margin:8mm 0}.map-hole,.map-feed,.map-tower{position:absolute;z-index:2;padding:3mm 4mm;font-size:8pt;font-weight:900;border-radius:1mm}.map-hole{left:8%;top:12%;background:#ff704b;color:#fff}.map-feed{right:8%;bottom:13%;background:#17221e;color:#d7f36b}.map-road{position:absolute;border:8px solid #b49b72;border-left-color:transparent;border-radius:50%}.road-one{width:75%;height:65%;left:11%;top:18%;transform:rotate(-15deg)}.road-two{width:38%;height:50%;left:42%;top:2%;transform:rotate(55deg)}.map-tower{background:#d7f36b;color:#17221e}.tower-a{left:35%;top:16%}.tower-b{right:30%;bottom:15%}.map-legend{display:flex;flex-wrap:wrap;gap:5mm;font-size:8pt;color:#536158}.dot{display:inline-block;width:3mm;height:3mm;border-radius:50%;margin-right:1mm}.dot.hole{background:#ff704b}.dot.road{background:#b49b72}.dot.feed{background:#17221e}.route-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:7mm}.route-steps div{border:1px solid #cbd3cb;background:#f7f8f5;padding:2mm}.route-steps img{display:block;width:100%;height:25mm;object-fit:contain}.route-steps span{display:block;margin-top:2mm;font-size:7.5pt;color:#536158}.print-checklist{display:grid;gap:4mm;margin:10mm 0}.print-checklist label{border:1px solid #cbd3cb;padding:5mm;font-size:10pt}.print-checklist input{width:5mm;height:5mm;margin-right:3mm;accent-color:var(--orange)}.next-page-box{background:#eaf3c9;padding:6mm;margin-top:14mm}.next-page-box h3{font-size:19pt;margin:2mm 0}.next-page-box p{font-size:9.5pt;line-height:1.6;margin:0}.reflection-lines{margin-top:12mm;font-size:9.5pt}.reflection-lines div{border-bottom:1px solid #929c94;height:10mm}.page-footer{position:absolute;bottom:8mm;left:14mm;right:14mm;border-top:1px solid #d9ded7;padding-top:3mm;display:flex;justify-content:space-between;color:#758078;font-size:8pt;letter-spacing:.06em}
+.large-resource{margin:8mm 0;border:1px solid #cbd3cb;background:#f7f8f5;padding:4mm;text-align:center}.large-resource img{display:block;width:100%;height:62mm;object-fit:contain}.large-resource.hero-resource img{height:105mm}.large-resource.interface-resource img{height:78mm}.large-resource span{display:block;margin-top:3mm;color:#536158;font-size:9pt}.interface-legend{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin:5mm 0}.interface-legend div{padding:3mm;background:#eef1ed;border-left:3px solid var(--orange)}.interface-legend b,.interface-legend span{display:block}.interface-legend b{font-size:9.5pt}.interface-legend span{font-size:8pt;color:#536158;margin-top:1mm}.large-process{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:8mm}.large-process div{border:1px solid #cbd3cb;background:#f7f8f5;padding:3mm}.large-process img{display:block;width:100%;height:48mm;object-fit:contain}.large-process span{display:block;margin-top:2mm;color:#536158;font-size:8pt}.target-list{display:flex;flex-wrap:wrap;gap:5mm;margin:6mm 0;color:#536158;font-size:8pt}.route-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:7mm}.route-steps div{border:1px solid #cbd3cb;background:#f7f8f5;padding:2mm}.route-steps img{display:block;width:100%;height:25mm;object-fit:contain}.route-steps span{display:block;margin-top:2mm;font-size:7.5pt;color:#536158}@media(max-width:600px){.ebook-course{padding:1rem .75rem 3rem}.ebook-toolbar{font-size:.65rem}.book-page{min-height:297mm}.area-list{grid-template-columns:1fr}.interface-legend{grid-template-columns:1fr}.route-steps,.large-process{grid-template-columns:1fr 1fr}}
+@media print{@page{size:A4;margin:0}.site-header,.site-footer,.ebook-toolbar{display:none!important}.page-content,.page-content>.wrapper{padding:0!important}.ebook-course{padding:0;background:#fff}.book-spread{max-width:none}.book-page{width:210mm;height:297mm;min-height:297mm;box-shadow:none;margin:0;padding:16mm 15mm 14mm;break-after:page;overflow:hidden}.book-page:last-child{break-after:auto}.cover-page{background:#17221e!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.goal-box,.next-page-box,.mini-check,.cover-page{-webkit-print-color-adjust:exact;print-color-adjust:exact}.area-list,.map-card,.code-card{break-inside:avoid}}
+.large-process{grid-template-columns:1fr}.large-process img{height:72mm}
+</style>
