@@ -1,56 +1,58 @@
+# ⚠️ 本檔週次資料的唯一設計標準是專案根目錄的 `課綱.md`。
+#    週次主軸與描述請依 `課綱.md` 第九節「14 週結構（定版）」填寫；如有衝突以 `課綱.md` 為準。
 - week: 1
   title: "初探 Scratch，守衛母雞誕生"
   status: "available"
   description: "認識 Scratch 介面，建立第一隻守衛母雞"
 - week: 2
-  title: "老鼠來了！沿小路進攻"
+  title: "建立塔防基地"
   status: "available"
-  description: "補完 Scratch 基礎，讓老鼠沿著小路移動"
+  description: "補完介面與存檔，畫出老鼠洞、道路與飼料桶"
 - week: 3
-  title: "母雞就位！免費放置砲塔"
+  title: "老鼠上路①：直線前進"
   status: "available"
-  description: "點擊固定砲位，建立第一座守衛母雞砲塔"
+  description: "建立路徑角色與老鼠造型，讓老鼠沿路直線前進"
 - week: 4
+  title: "老鼠上路②：轉彎與抵達"
+  status: "coming_soon"
+  description: "用紅藍顏色判斷讓老鼠轉彎走完全程，抵達飼料桶消失"
+- week: 5
+  title: "母雞就位！免費放置砲塔"
+  status: "coming_soon"
+  description: "點擊固定砲位放置守衛母雞（本週先不扣錢）"
+- week: 6
   title: "發射雞蛋！自動攻擊"
   status: "coming_soon"
-  description: "用分身製作雞蛋，讓砲塔自動攻擊老鼠"
-- week: 5
+  description: "用分身製作雞蛋，攻擊並讓老鼠死亡消失"
+- week: 7
   title: "砲塔美化與防呆"
   status: "coming_soon"
-  description: "加入砲塔動畫，避免重複或錯誤放置"
-- week: 6
+  description: "加入砲塔動畫，避免放在路上或重複放置"
+- week: 8
   title: "鼠潮生成器與第二種老鼠"
   status: "coming_soon"
-  description: "用分身生成老鼠，加入速度不同的敵人"
-- week: 7
+  description: "用分身生成老鼠，加入速度不同的第二種老鼠"
+- week: 9
   title: "整合週：第一版可以玩的塔防"
   status: "coming_soon"
-  description: "整合前六週功能，完成第一版塔防遊戲"
-- week: 8
+  description: "整合前八週功能，測試除錯，完成第一版塔防遊戲"
+- week: 10
   title: "波次系統：一波接一波"
   status: "coming_soon"
   description: "用變數和廣播控制一波又一波的老鼠進攻"
-- week: 9
+- week: 11
   title: "金幣經濟：防守要花錢"
   status: "coming_soon"
-  description: "建立金幣獎勵與砲塔購買機制"
-- week: 10
-  title: "完整砲塔商店"
-  status: "coming_soon"
-  description: "設計商店，讓玩家選擇不同砲塔"
-- week: 11
-  title: "第二種砲塔：戰鬥雞"
-  status: "coming_soon"
-  description: "調整射速與射程，製作不同特色的砲塔"
+  description: "擊退老鼠賺金幣，回頭讓放置砲塔需要花錢"
 - week: 12
+  title: "砲塔商店與第二種砲塔"
+  status: "coming_soon"
+  description: "設計商店，加入射速與射程不同的戰鬥雞砲塔"
+- week: 13
   title: "血條與更多敵人"
   status: "coming_soon"
-  description: "加入敵人血量、血條與難度變化"
-- week: 13
-  title: "雷射母雞：穿透攻擊"
-  status: "coming_soon"
-  description: "製作能同時攻擊多隻老鼠的進階武器"
+  description: "用私有變數與畫筆做血條，加入難度變化"
 - week: 14
   title: "生命值、Game Over、升級與成果發表"
   status: "coming_soon"
-  description: "完成勝負系統、升級功能與塔防作品發表"
+  description: "完成勝負與升級系統並發表作品（雷射母雞為選修）"

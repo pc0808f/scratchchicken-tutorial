@@ -4,6 +4,10 @@ title: 首頁
 nav_order: 1
 ---
 
+<!-- ⚠️ 課程方向、週次、學習目標、成果標準的唯一設計標準是專案根目錄的 `課綱.md`。
+     本頁的週次卡片、學習目標表、成果分級表都必須與 `課綱.md` 一致；如有衝突以 `課綱.md` 為準。
+     修改本頁課程內容前，請先讀 `課綱.md`。 -->
+
 <div class="landing-page">
   <section class="hero-panel">
     <div class="hero-copy">
@@ -89,26 +93,44 @@ nav_order: 1
     </div>
   </section>
 
+  <section class="levels-section section-block">
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">THREE OUTCOME LEVELS</p><h2>同一堂課，<br>每個孩子都有自己的成長路線。</h2></div>
+      <p>基本成果先確保每位學生完成可玩的作品；進階內容提供給進度較快的學生，不用全班一起趕課。</p>
+    </div>
+    <div class="levels-table-wrap">
+      <table class="levels-table">
+        <thead><tr><th>成果層級</th><th>學生會完成什麼</th><th>會理解哪些 Scratch 理論</th><th>最後作品樣子</th></tr></thead>
+        <tbody>
+          <tr><td><span class="level-tag basic">BASIC</span><strong>基本達成</strong></td><td>完成一場簡單塔防：老鼠會走、砲塔能攻擊、遊戲能結束。</td><td>角色、背景、事件、順序、重複、條件、碰撞、座標、基本變數與分身。</td><td>一款可以操作和展示的塔防遊戲。</td></tr>
+          <tr><td><span class="level-tag plus">PLUS</span><strong>進階</strong></td><td>加入波次、金幣、商店、第二種老鼠或第二種砲塔。</td><td>廣播、變數運算、自訂積木、分身初始化、遊戲狀態與基本平衡。</td><td>有策略選擇、難度變化和不同玩法的塔防。</td></tr>
+          <tr><td><span class="level-tag deep">DEEP</span><strong>深入挑戰</strong></td><td>製作血條、雷射、升級、出售砲塔和自己的敵人種類。</td><td>角色專屬變數、複合條件、系統模組化、狀態重設、系統化除錯與遊戲平衡。</td><td>能自行設計、修改並解釋整個遊戲系統。</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="./scratch-programming-levels.html" class="levels-link">查看 Scratch Programming Levels <span>→</span></a>
+  </section>
+
   <section class="goals-section section-block">
     <div class="section-heading"><p class="eyebrow">WEEK BY WEEK</p><h2>每週都知道自己正在學什麼。</h2></div>
     <div class="goals-table-wrap">
       <table class="goals-table">
         <thead><tr><th>週次</th><th>學習目標</th><th>核心概念</th><th>作品成果</th></tr></thead>
         <tbody>
-          <tr><td>01</td><td>加入 hen，修改守衛母雞</td><td>角色、造型</td><td>自己的守衛母雞</td></tr>
-          <tr><td>02</td><td>補完介面與存檔，建立塔防背景與道路</td><td>背景、舞台、繪圖工具、存檔</td><td>老鼠洞、道路與飼料盒背景</td></tr>
-          <tr><td>03</td><td>點擊固定砲位放置母雞</td><td>點擊、條件判斷</td><td>第一座守衛砲塔</td></tr>
-          <tr><td>04</td><td>讓砲塔發射雞蛋</td><td>分身、碰撞</td><td>雞蛋擊中老鼠</td></tr>
-          <tr><td>05</td><td>加入動畫與放置防呆</td><td>造型、座標判斷</td><td>更完整的砲塔</td></tr>
-          <tr><td>06</td><td>建立老鼠生成器</td><td>分身、計時、隨機</td><td>兩種不同老鼠</td></tr>
-          <tr><td>07</td><td>整合、測試並修正問題</td><td>整合、除錯</td><td>第一版可玩塔防</td></tr>
-          <tr><td>08</td><td>控制一波又一波的進攻</td><td>變數、廣播、波次</td><td>波次系統</td></tr>
-          <tr><td>09</td><td>讓防守需要花費資源</td><td>金幣、運算、比較</td><td>金幣經濟</td></tr>
-          <tr><td>10</td><td>設計砲塔選擇介面</td><td>商店、按鈕、廣播</td><td>砲塔商店</td></tr>
-          <tr><td>11</td><td>比較不同砲塔的特色</td><td>射速、射程、平衡</td><td>戰鬥雞砲塔</td></tr>
-          <tr><td>12</td><td>管理每隻老鼠的血量</td><td>角色專屬變數、血條</td><td>血量與難度</td></tr>
-          <tr><td>13</td><td>製作能攻擊多隻敵人的武器</td><td>範圍、多重判定</td><td>雷射母雞</td></tr>
-          <tr><td>14</td><td>完成遊戲並發表作品</td><td>生命值、Game Over、升級</td><td>完整塔防作品</td></tr>
+          <tr><td>01</td><td>加入 hen，做出自己的守衛母雞</td><td>角色、造型</td><td>自己的守衛母雞</td></tr>
+          <tr><td>02</td><td>補完介面與存檔，畫出塔防基地</td><td>背景、舞台、繪圖工具、存檔</td><td>老鼠洞、道路與飼料桶</td></tr>
+          <tr><td>03</td><td>建立路徑角色，讓老鼠直線前進</td><td>路徑角色、造型、自訂積木</td><td>會前進的老鼠</td></tr>
+          <tr><td>04</td><td>用紅藍顏色判斷讓老鼠轉彎走完</td><td>碰到顏色、條件判斷</td><td>走完整條路的老鼠</td></tr>
+          <tr><td>05</td><td>點擊固定砲位放置守衛母雞</td><td>點擊、條件判斷、顯示隱藏</td><td>第一座守衛砲塔</td></tr>
+          <tr><td>06</td><td>讓母雞發射雞蛋自動攻擊</td><td>分身、碰撞</td><td>雞蛋擊退老鼠</td></tr>
+          <tr><td>07</td><td>加入砲塔動畫與放置防呆</td><td>造型、座標判斷</td><td>更完整的砲塔</td></tr>
+          <tr><td>08</td><td>用分身生成一波老鼠</td><td>分身、計時、隨機</td><td>兩種不同老鼠</td></tr>
+          <tr><td>09</td><td>整合、測試並修正問題</td><td>整合、除錯</td><td>第一版可玩塔防</td></tr>
+          <tr><td>10</td><td>控制一波又一波的進攻</td><td>變數、廣播、波次</td><td>波次系統</td></tr>
+          <tr><td>11</td><td>讓防守需要花費資源</td><td>金幣、運算、比較</td><td>金幣經濟</td></tr>
+          <tr><td>12</td><td>商店選購與不同特色的砲塔</td><td>商店、射速、射程、平衡</td><td>砲塔商店與戰鬥雞</td></tr>
+          <tr><td>13</td><td>管理每隻老鼠的血量</td><td>角色專屬變數、畫筆血條</td><td>血量與難度</td></tr>
+          <tr><td>14</td><td>完成勝負、升級並發表作品</td><td>生命值、Game Over、升級</td><td>完整塔防作品</td></tr>
         </tbody>
       </table>
     </div>
@@ -163,6 +185,7 @@ nav_order: 1
 .story-grid { display: grid; grid-template-columns: 1.4fr repeat(3, 1fr); gap: 1rem; }.story-intro { padding: 1rem 2rem 1rem 0; color: var(--muted); line-height: 1.8; }.story-note { color: var(--ink); border-left: 3px solid var(--orange); padding-left: 1rem; font-size: .9rem; }.feature-card { min-height: 220px; padding: 1.5rem; border-top: 4px solid var(--ink); background: #fff; }.feature-number { color: var(--orange); font-size: .75rem; font-weight: 900; }.feature-card h3 { margin: 3.5rem 0 .5rem; color: var(--ink); }.feature-card p { color: var(--muted); font-size: .9rem; line-height: 1.6; margin: 0; }
 .roadmap-section { background: #e3e9d4; max-width: none; }.split-heading { display: flex; justify-content: space-between; align-items: end; gap: 2rem; }.split-heading > p { max-width: 330px; color: var(--muted); line-height: 1.7; margin: 0; }.course-overview { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }.week-card { min-height: 230px; padding: 1.4rem; background: #fff; border-radius: 1rem; display: flex; flex-direction: column; border: 1px solid transparent; }.week-card.available { border-color: var(--orange); box-shadow: 7px 7px 0 var(--orange); }.week-card.coming_soon { opacity: .68; }.week-topline { display: flex; justify-content: space-between; align-items: center; }.week-index { color: var(--orange); font-size: 1.5rem; font-weight: 900; }.week-status { font-size: .62rem; letter-spacing: .12em; font-weight: 900; color: var(--muted); }.week-card h3 { color: var(--ink); font-size: 1.1rem; line-height: 1.3; margin: 1.8rem 0 .6rem; }.week-card p { color: var(--muted); font-size: .85rem; line-height: 1.5; margin: 0; }.week-link { color: var(--ink); font-size: .8rem; font-weight: 900; margin-top: auto; padding-top: 1rem; }.week-link span { color: var(--orange); font-size: 1.2rem; }.week-link:hover { color: var(--orange); text-decoration: none; }.week-link.muted { color: #aab1a7; }
 .outcomes-section { background: var(--cream); }.outcomes-card { display: grid; grid-template-columns: .8fr 1.6fr; gap: 3rem; background: var(--ink); color: #fff; border-radius: 1.5rem; padding: clamp(2rem, 5vw, 4rem); }.outcomes-card h2 { color: #fff; margin: 0; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.06em; }.outcome-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }.outcome-list div { border-top: 1px solid #536158; padding-top: 1rem; }.outcome-list span { color: var(--lime); font-size: .7rem; font-weight: 900; }.outcome-list strong { display: block; font-size: 1.1rem; margin: .7rem 0 .3rem; }.outcome-list p { color: #aebbb2; font-size: .85rem; margin: 0; }
+.levels-section { background: #e3e9d4; max-width: none; }.levels-table-wrap { overflow-x: auto; }.levels-table { width: 100%; min-width: 850px; border-collapse: collapse; background: #fff; }.levels-table th { background: var(--ink); color: var(--lime); text-align: left; padding: 1rem; font-size: .72rem; letter-spacing: .08em; }.levels-table td { vertical-align: top; border-bottom: 1px solid #e5e9e3; padding: 1.1rem; color: var(--muted); line-height: 1.65; }.levels-table td:first-child { width: 18%; color: var(--ink); }.levels-table strong { display: block; margin-top: .4rem; font-size: 1.05rem; }.level-tag { display: inline-block; padding: .2rem .45rem; border-radius: 999px; font-size: .62rem; font-weight: 900; letter-spacing: .12em; }.level-tag.basic { background: var(--lime); color: var(--ink); }.level-tag.plus { background: var(--orange); color: #fff; }.level-tag.deep { background: var(--ink); color: var(--lime); }.levels-link { display: inline-flex; gap: .8rem; margin-top: 1.5rem; color: var(--ink); font-weight: 900; }.levels-link:hover { color: var(--orange); text-decoration: none; }
 .goals-section { background: #fff; }.goals-table-wrap { overflow-x: auto; }.goals-table { width: 100%; min-width: 720px; border-collapse: collapse; font-size: .86rem; }.goals-table th { background: var(--ink); color: var(--lime); text-align: left; padding: 1rem; font-size: .72rem; letter-spacing: .08em; }.goals-table td { border-bottom: 1px solid #e5e9e3; padding: 1rem; color: var(--muted); }.goals-table td:first-child { color: var(--orange); font-weight: 900; }.goals-table tr:hover td { background: #f7f9f2; }
 .final-cta { text-align: center; background: var(--lime); max-width: none; padding-top: 6rem; padding-bottom: 6rem; }.final-cta .eyebrow { color: var(--ink); }.final-cta h2 { margin-bottom: 2rem; }.final-cta .hero-button { background: var(--ink); color: #fff; }.final-cta .hero-button:hover { color: var(--lime); }
 @media (max-width: 1050px) { .hero-panel { grid-template-columns: 1fr; }.hero-art { margin: 0 auto; }.story-grid { grid-template-columns: repeat(2, 1fr); }.story-intro { grid-column: span 2; }.course-overview { grid-template-columns: repeat(3, 1fr); }.outcomes-card { grid-template-columns: 1fr; } }
