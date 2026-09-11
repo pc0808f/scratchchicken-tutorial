@@ -2,9 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## ⚠️ 課程設計唯一標準：`課綱.md`
+
+**任何涉及課程方向、週次安排、學習目標、成果標準、必學/進階/深入內容的工作，都必須先讀 `課綱.md`，並以它為唯一依據。**
+- `課綱.md` 是最高權威。若其他檔案（網站頁面、週次、舊規劃文件）與它衝突，一律以 `課綱.md` 為準。
+- 要改課程方向或標準時，**先改 `課綱.md`，再同步其他檔案**，避免方向分歧。
+- `塔防課程轉換計畫.md`、`Fuelvin塔防教學系列摘要.md`、`塔防課程與Fuelvin流程差異分析.md` 為背景/過程紀錄，**已被 `課綱.md` 取代**，僅供參考。
+
 ## 專案概述
 
-這是一個名為 "scratchchicken-tutorial" 的 Jekyll 靜態網站專案，提供 Scratch 電子雞創客課程的線上教學內容。專案針對國小四、五年級學生設計，共10週課程，每週75分鐘。
+這是一個名為 "scratchchicken-tutorial" 的 Jekyll 靜態網站專案，提供 Scratch 母雞護衛隊塔防創客課程的線上教學內容。專案針對國小四、五年級學生設計，共 14 週課程，每週表定 90 分鐘（約 45 分鐘有效教學）。課程時間與週次以 `_config.yml` 為準。
 
 ## 技術架構
 
@@ -71,7 +78,7 @@ bundle exec jekyll build
 
 ### _config.yml 關鍵設定
 - `baseurl`: GitHub Pages 子目錄路徑
-- `course_structure`: 10週課程資訊
+- `course_structure`: 14週課程資訊
 - `custom`: 課程基本資訊與聯絡方式
 - `header_pages`: 主選單頁面
 
