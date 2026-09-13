@@ -63,7 +63,7 @@ nav_order: 1
   <section id="course-roadmap" class="roadmap-section section-block">
     <div class="section-heading split-heading">
       <div><p class="eyebrow">THE COURSE ROADMAP</p><h2>14 週，從角色到完整遊戲。</h2></div>
-      <p>先做出能玩的核心版本，再逐步加入波次、金幣、商店與升級。</p>
+      <p>先用一隻老鼠完成移動與攻擊，再逐步加入老鼠分身形成鼠潮，最後加入波次、金幣、商店與升級。</p>
     </div>
     <div class="course-overview">
       {% for course in site.data.course_structure %}
@@ -120,7 +120,7 @@ nav_order: 1
           <tr><td>01</td><td>加入 hen，做出自己的守衛母雞</td><td>角色、造型</td><td>自己的守衛母雞</td></tr>
           <tr><td>02</td><td>補完介面與存檔，畫出塔防基地</td><td>背景、舞台、繪圖工具、存檔</td><td>老鼠洞、道路與飼料桶</td></tr>
           <tr><td>03</td><td>建立路徑角色，讓老鼠直線前進</td><td>路徑角色、造型、自訂積木</td><td>會前進的老鼠</td></tr>
-          <tr><td>04</td><td>用紅藍顏色判斷讓老鼠轉彎走完</td><td>碰到顏色、條件判斷</td><td>走完整條路的老鼠</td></tr>
+          <tr><td>04</td><td>用老鼠身上的紅藍標壓到路線，讓老鼠轉彎走完</td><td>路徑角色、條件判斷</td><td>走完整條路的老鼠</td></tr>
           <tr><td>05</td><td>點擊固定砲位放置守衛母雞</td><td>點擊、條件判斷、顯示隱藏</td><td>第一座守衛砲塔</td></tr>
           <tr><td>06</td><td>讓母雞發射雞蛋自動攻擊</td><td>分身、碰撞</td><td>雞蛋擊退老鼠</td></tr>
           <tr><td>07</td><td>加入砲塔動畫與放置防呆</td><td>造型、座標判斷</td><td>更完整的砲塔</td></tr>

@@ -131,7 +131,7 @@ course_structure:
   - week: 4
     title: "老鼠上路②：轉彎與抵達"
     status: "available"
-    description: "用紅藍顏色判斷讓老鼠轉彎走完全程，抵達飼料桶消失"
+    description: "用老鼠身上的紅藍標壓到路線，讓老鼠轉彎走完全程，抵達飼料桶消失"
   - week: 5
     title: "母雞就位！免費放置砲塔"
     status: "available"
