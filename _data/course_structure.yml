@@ -14,11 +14,11 @@
   description: "建立路徑角色與老鼠造型，讓老鼠沿路直線前進"
 - week: 4
   title: "老鼠上路②：轉彎與抵達"
-  status: "coming_soon"
+  status: "available"
   description: "用紅藍顏色判斷讓老鼠轉彎走完全程，抵達飼料桶消失"
 - week: 5
   title: "母雞就位！免費放置砲塔"
-  status: "coming_soon"
+  status: "available"
   description: "點擊固定砲位放置守衛母雞（本週先不扣錢）"
 - week: 6
   title: "發射雞蛋！自動攻擊"

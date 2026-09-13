@@ -35,41 +35,41 @@ has_children: true
     </section>
 
     <section class="book-page content-page">
-      <div class="page-header"><span>STEP 03</span><span>先看完成目標</span></div><h2>安排老鼠的路</h2>
+      <div class="page-header"><span>STEP 02</span><span>先看完成目標</span></div><h2>安排老鼠的路</h2>
       <p class="lead">先看完整成品，再回頭一步一步製作。這張圖就是今天要完成的塔防基地，不包含砲位。</p>
-      <div class="large-resource hero-resource"><img src="{{ '/week2/resources/有鼠洞和飼料盒的背景.jpg' | relative_url }}" alt="有老鼠洞和飼料盒的完整塔防背景"><span>完成目標：老鼠洞 → 路徑 → 飼料盒</span></div>
-      <div class="target-list"><span><b class="dot hole"></b>起點：老鼠洞</span><span><b class="dot road"></b>中間：老鼠道路</span><span><b class="dot feed"></b>終點：飼料盒</span></div>
-      <div class="teacher-note"><strong>先不畫砲位：</strong>本週先完成背景和路徑，固定砲位、空蛋和母雞會在第 3 週製作。</div>
-      <div class="page-footer"><span>第二週・完成目標</span><span>05</span></div>
+      <div class="large-resource hero-resource"><img src="{{ '/week2/resources/有鼠洞和飼料桶的背景.jpg' | relative_url }}" alt="有老鼠洞和飼料桶的完整塔防背景"><span>完成目標：老鼠洞 → 路徑 → 飼料桶</span></div>
+      <div class="target-list"><span><b class="dot hole"></b>起點：老鼠洞</span><span><b class="dot road"></b>中間：老鼠道路</span><span><b class="dot feed"></b>終點：飼料桶</span></div>
+      <div class="teacher-note"><strong>先不畫砲位：</strong>本週先完成背景和路徑。老鼠會在第 3、4 週上路，固定砲位、空蛋和母雞則在第 5 週製作。</div>
+      <div class="page-footer"><span>第二週・完成目標</span><span>04</span></div>
     </section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 04A</span><span>進入舞台</span></div><h2>先進入背景編輯</h2><p class="lead">依序點下進入舞台，準備開始畫背景。</p><div class="large-process two"><div><img src="{{ '/week2/resources/點下進入舞台1.jpg' | relative_url }}" alt="點下進入舞台一"><span>01 點下進入舞台</span></div><div><img src="{{ '/week2/resources/點下進入舞台2.jpg' | relative_url }}" alt="點下進入舞台二"><span>02 進入背景編輯</span></div></div><div class="page-footer"><span>第二週・進入舞台</span><span>06</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 03A</span><span>進入舞台</span></div><h2>先進入背景編輯</h2><p class="lead">依序點下進入舞台，準備開始畫背景。</p><div class="large-process two"><div><img src="{{ '/week2/resources/點下進入舞台1.jpg' | relative_url }}" alt="點下進入舞台一"><span>01 點下進入舞台</span></div><div><img src="{{ '/week2/resources/點下進入舞台2.jpg' | relative_url }}" alt="點下進入舞台二"><span>02 進入背景編輯</span></div></div><div class="page-footer"><span>第二週・進入舞台</span><span>05</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 04B</span><span>開始畫線</span></div><h2>畫出道路的第一筆</h2><p class="lead">先選擇畫線工具，再拉出一條道路。</p><div class="large-process two"><div><img src="{{ '/week2/resources/選一下畫線.jpg' | relative_url }}" alt="選擇畫線工具"><span>01 選一下畫線</span></div><div><img src="{{ '/week2/resources/拉出一條線.jpg' | relative_url }}" alt="拉出一條線"><span>02 拉出一條線</span></div></div><div class="page-footer"><span>第二週・開始畫路</span><span>07</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 03B</span><span>開始畫線</span></div><h2>畫出道路的第一筆</h2><p class="lead">先選擇畫線工具，再拉出一條道路。</p><div class="large-process two"><div><img src="{{ '/week2/resources/選一下畫線.jpg' | relative_url }}" alt="選擇畫線工具"><span>01 選一下畫線</span></div><div><img src="{{ '/week2/resources/拉出一條線.jpg' | relative_url }}" alt="拉出一條線"><span>02 拉出一條線</span></div></div><div class="page-footer"><span>第二週・開始畫路</span><span>06</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 04C</span><span>調整路線</span></div><h2>把道路放到正確位置</h2><p class="lead">先調整線的位置，再切換曲線工具。</p><div class="large-process two"><div><img src="{{ '/week2/resources/把線拉到下面這個位置.jpg' | relative_url }}" alt="把線拉到指定位置"><span>01 拉到指定位置</span></div><div><img src="{{ '/week2/resources/點一下曲線工具.jpg' | relative_url }}" alt="點選曲線工具"><span>02 點一下曲線工具</span></div></div><div class="page-footer"><span>第二週・調整路線</span><span>08</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 03C</span><span>調整路線</span></div><h2>把道路放到正確位置</h2><p class="lead">先調整線的位置，再切換曲線工具。</p><div class="large-process two"><div><img src="{{ '/week2/resources/把線拉到下面這個位置.jpg' | relative_url }}" alt="把線拉到指定位置"><span>01 拉到指定位置</span></div><div><img src="{{ '/week2/resources/點一下曲線工具.jpg' | relative_url }}" alt="點選曲線工具"><span>02 點一下曲線工具</span></div></div><div class="page-footer"><span>第二週・調整路線</span><span>07</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 04D</span><span>拉出完整路線</span></div><h2>讓道路彎向飼料盒</h2><p class="lead">點擊中間線段開始變形，再把道路拉成想要的路徑。</p><div class="large-process two"><div><img src="{{ '/week2/resources/點一下中間線段開始變型.jpg' | relative_url }}" alt="點擊中間線段變形"><span>01 點擊中間線段</span></div><div><img src="{{ '/week2/resources/拉出你要的路經.jpg' | relative_url }}" alt="拉出想要的路徑"><span>02 拉出想要的路徑</span></div></div><div class="page-footer"><span>第二週・完成道路形狀</span><span>09</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 03D</span><span>拉出完整路線</span></div><h2>讓道路彎向飼料桶</h2><p class="lead">點擊中間線段開始變形，再把道路拉成想要的路徑。</p><div class="large-process two"><div><img src="{{ '/week2/resources/點一下中間線段開始變型.jpg' | relative_url }}" alt="點擊中間線段變形"><span>01 點擊中間線段</span></div><div><img src="{{ '/week2/resources/拉出你要的路經.jpg' | relative_url }}" alt="拉出想要的路徑"><span>02 拉出想要的路徑</span></div></div><div class="page-footer"><span>第二週・完成道路形狀</span><span>08</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 04E</span><span>道路樣式</span></div><h2>加粗，再選顏色</h2><p class="lead">道路形狀完成後，調整線條粗細，再換成你喜歡的顏色。</p><div class="large-process two"><div><img src="{{ '/week2/resources/把線加粗到90.jpg' | relative_url }}" alt="把線加粗到九十"><span>01 加粗到 90</span></div><div><img src="{{ '/week2/resources/改成你喜歡的顏色.jpg' | relative_url }}" alt="修改道路顏色"><span>02 改成喜歡的顏色</span></div></div><div class="page-footer"><span>第二週・道路樣式</span><span>10</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 03E</span><span>道路樣式</span></div><h2>加粗，再選顏色</h2><p class="lead">道路形狀完成後，調整線條粗細，再換成你喜歡的顏色。</p><div class="large-process two"><div><img src="{{ '/week2/resources/把線加粗到90.jpg' | relative_url }}" alt="把線加粗到九十"><span>01 加粗到 90</span></div><div><img src="{{ '/week2/resources/改成你喜歡的顏色.jpg' | relative_url }}" alt="修改道路顏色"><span>02 改成喜歡的顏色</span></div></div><div class="page-footer"><span>第二週・道路樣式</span><span>09</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 05</span><span>完成背景</span></div><h2>最後才加入草地</h2><p class="lead">道路完成後，才拉出草地方塊並移到最下層，避免把道路蓋住。</p><div class="large-process two"><div><img src="{{ '/week2/resources/拉出方塊做草地，同時調整顏色.jpg' | relative_url }}" alt="建立草地並調整顏色"><span>01 拉出草地方塊</span></div><div><img src="{{ '/week2/resources/把草地移到最下層.jpg' | relative_url }}" alt="把草地移到最下層"><span>02 移到最下層</span></div></div><div class="page-footer"><span>第二週・草地背景</span><span>11</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 04</span><span>完成背景</span></div><h2>最後才加入草地</h2><p class="lead">道路完成後，才拉出草地方塊並移到最下層，避免把道路蓋住。</p><div class="large-process two"><div><img src="{{ '/week2/resources/拉出方塊做草地，同時調整顏色.jpg' | relative_url }}" alt="建立草地並調整顏色"><span>01 拉出草地方塊</span></div><div><img src="{{ '/week2/resources/把草地移到最下層.jpg' | relative_url }}" alt="把草地移到最下層"><span>02 移到最下層</span></div></div><div class="page-footer"><span>第二週・草地背景</span><span>10</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 06</span><span>完成基地</span></div><h2>加上起點和終點</h2><p class="lead">最後補上老鼠洞和飼料盒，讓學生知道老鼠從哪裡出發、要保護什麼。</p><div class="large-process two"><div><img src="{{ '/week2/resources/在開始的位置加上米奇洞.jpg' | relative_url }}" alt="在起點加上老鼠洞"><span>01 加上老鼠洞</span></div><div><img src="{{ '/week2/resources/在終點加上飼料盒.jpg' | relative_url }}" alt="在終點加上飼料盒"><span>02 加上飼料盒</span></div></div><div class="page-footer"><span>第二週・完成塔防背景</span><span>12</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 05</span><span>完成基地</span></div><h2>加上起點和終點</h2><p class="lead">最後補上老鼠洞和飼料桶，讓學生知道老鼠從哪裡出發、要保護什麼。</p><div class="large-process two"><div><img src="{{ '/week2/resources/在開始的位置加上米奇洞.jpg' | relative_url }}" alt="在起點加上老鼠洞"><span>01 加上老鼠洞</span></div><div><img src="{{ '/week2/resources/在終點加上飼料桶.jpg' | relative_url }}" alt="在終點加上飼料桶"><span>02 加上飼料桶</span></div></div><div class="page-footer"><span>第二週・完成塔防背景</span><span>11</span></div></section>
 
     <section class="book-page content-page">
       <div class="page-header"><span>STEP 06</span><span>儲存與整理</span></div><h2>把基地留給下週</h2>
       <p class="lead">這一週沒有要執行完整遊戲。地圖完成後，確認背景清楚、專案已儲存，下一週再加入老鼠和程式。</p>
-      <div class="numbered-step"><span>1</span><p>確認老鼠洞、小路和飼料盒都在舞台上。</p></div><div class="numbered-step"><span>2</span><p>確認道路沒有被草地蓋住，起點和終點清楚。</p></div><div class="numbered-step"><span>3</span><p>為專案命名並儲存，依老師指定方式保留作品。</p></div>
+      <div class="numbered-step"><span>1</span><p>確認老鼠洞、小路和飼料桶都在舞台上。</p></div><div class="numbered-step"><span>2</span><p>確認道路沒有被草地蓋住，起點和終點清楚。</p></div><div class="numbered-step"><span>3</span><p>為專案命名並儲存，依老師指定方式保留作品。</p></div>
       <div class="mini-check"><strong>本週完成</strong><span>背景完成 → 存檔 → 下週加入老鼠</span></div>
-      <div class="page-footer"><span>第二週・儲存與整理</span><span>13</span></div>
+      <div class="page-footer"><span>第二週・儲存與整理</span><span>12</span></div>
     </section>
 
     <section class="book-page content-page final-page">
       <div class="page-header"><span>CHECKPOINT</span><span>下課前檢查</span></div><h2>基地準備好了嗎？</h2>
-      <div class="print-checklist"><label><input type="checkbox"> 我知道四個 Scratch 重要區域</label><label><input type="checkbox"> 我能儲存並重新開啟專案</label><label><input type="checkbox"> 我找到背景編輯器和繪圖工具</label><label><input type="checkbox"> 背景有老鼠洞、小路和飼料盒</label></div>
-      <div class="next-page-box"><span>NEXT WEEK</span><h3>老鼠來了！</h3><p>下週加入 Scratch 內建 Mouse1，讓老鼠沿著今天畫好的路線前進，再設計固定砲位。</p></div>
-      <div class="reflection-lines"><p>我的塔防基地名稱：</p><div></div><p>我最想保護的東西：</p><div></div></div><div class="page-footer"><span>母雞護衛隊・第二週</span><span>14</span></div>
+      <div class="print-checklist"><label><input type="checkbox"> 我知道四個 Scratch 重要區域</label><label><input type="checkbox"> 我能儲存並重新開啟專案</label><label><input type="checkbox"> 我找到背景編輯器和繪圖工具</label><label><input type="checkbox"> 背景有老鼠洞、小路和飼料桶</label></div>
+      <div class="next-page-box"><span>NEXT WEEK</span><h3>老鼠上路！</h3><p>下週建立路徑角色並加入老鼠，讓牠沿著今天畫好的路線直線前進；轉彎和砲位留到後面幾週。</p></div>
+      <div class="reflection-lines"><p>我的塔防基地名稱：</p><div></div><p>我最想保護的東西：</p><div></div></div><div class="page-footer"><span>母雞護衛隊・第二週</span><span>13</span></div>
     </section>
   </main>
 </div>
