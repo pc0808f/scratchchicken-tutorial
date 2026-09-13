@@ -12,7 +12,7 @@ nav_order: 1
   <div class="quick-start-text">
     <h2>第一次上課？從這裡開始</h2>
     <p>掃描 QR Code，或直接輸入首頁網址：</p>
-    <p class="quick-start-url">tinyurl.com/25cnwjxg</p>
+    <p class="quick-start-url">tinyurl.com/2b2ktnv2</p>
     <p>進入後，依照老師指定的週次開始學習。</p>
   </div>
 </section>
