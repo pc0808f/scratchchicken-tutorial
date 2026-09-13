@@ -4,6 +4,19 @@ title: 首頁
 nav_order: 1
 ---
 
+<section class="quick-start-box">
+  <div class="qr-code">
+    <img src="{{ '/assets/images/qr-week1.png' | relative_url }}" alt="掃描進入 Scratch 母雞護衛隊首頁">
+    <p>用平板或手機掃描</p>
+  </div>
+  <div class="quick-start-text">
+    <h2>第一次上課？從這裡開始</h2>
+    <p>掃描 QR Code，或直接輸入首頁網址：</p>
+    <p class="quick-start-url">tinyurl.com/25cnwjxg</p>
+    <p>進入後，依照老師指定的週次開始學習。</p>
+  </div>
+</section>
+
 <!-- ⚠️ 課程方向、週次、學習目標、成果標準的唯一設計標準是專案根目錄的 `課綱.md`。
      本頁的週次卡片、學習目標表、成果分級表都必須與 `課綱.md` 一致；如有衝突以 `課綱.md` 為準。
      修改本頁課程內容前，請先讀 `課綱.md`。 -->
