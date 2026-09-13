@@ -17,6 +17,69 @@ nav_order: 1
   </div>
 </section>
 
+<style>
+.quick-start-box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 1.5rem auto 2rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.12), rgba(255, 107, 53, 0.08));
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+}
+.quick-start-box .qr-code {
+  flex: 0 0 160px;
+  text-align: center;
+}
+.quick-start-box .qr-code img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+}
+.quick-start-box .qr-code p {
+  margin: .5rem 0 0;
+  color: #666;
+  font-size: .85rem;
+}
+.quick-start-box .quick-start-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.quick-start-box h2 {
+  margin-top: 0;
+}
+.quick-start-box .quick-start-url {
+  display: inline-block;
+  max-width: 100%;
+  margin: .5rem 0;
+  padding: .5rem .75rem;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px dashed #4caf50;
+  border-radius: 6px;
+  word-break: break-all;
+}
+@media (max-width: 700px) {
+  .quick-start-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .quick-start-box .quick-start-text {
+    width: 100%;
+  }
+}
+</style>
+
 <!-- ⚠️ 課程方向、週次、學習目標、成果標準的唯一設計標準是專案根目錄的 `課綱.md`。
      本頁的週次卡片、學習目標表、成果分級表都必須與 `課綱.md` 一致；如有衝突以 `課綱.md` 為準。
      修改本頁課程內容前，請先讀 `課綱.md`。 -->
