@@ -10,7 +10,7 @@ has_children: true
   <main class="book-spread">
     <section class="book-page cover-page"><div class="page-kicker">SCRATCH CREATIVE CODING</div><div class="cover-number">03</div><div class="cover-art">●</div><h1>老鼠<br><em>上路！</em></h1><p class="cover-subtitle">第三週學習單・直線前進</p><div class="cover-rule"></div><p class="cover-description">把路線變成角色，加入老鼠，讓牠沿著小路「直直往前走」。轉彎下週再做。</p><div class="cover-footer"><span>母雞護衛隊・保衛飼料大作戰</span><span>01</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>WEEK 03</span><span>學習目標</span></div><h2>今天要完成什麼？</h2><p class="lead">上週我們畫好了背景和小路。這週把路線變成角色、加入老鼠，讓牠從起點「直線前進」。<strong>轉彎與抵達飼料桶是下週（第四週）的任務，這週先不做。</strong></p><div class="goal-box"><span>CORE MISSION</span><strong>讓老鼠沿路直線前進</strong><p>按下綠旗，老鼠會回到起點，然後用 mousemove 重複往前走。</p></div><h3>本週學習目標</h3><ul class="check-list"><li>把背景路線複製成獨立的路徑角色</li><li>加入老鼠並準備紅框、藍框造型（下週判斷用）</li><li>設定老鼠的起點、大小和方向</li><li>建立 mousemove 自訂積木讓老鼠往前走</li><li>用重複積木讓老鼠持續直線前進</li></ul><div class="note-box"><strong>本週完成標準：</strong>按綠旗後，老鼠能從老鼠洞出發、沿著路「直線」重複前進即可。還不會轉彎是正常的，下週再處理。</div><div class="page-footer"><span>Scratch 母雞護衛隊</span><span>02</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>WEEK 03</span><span>學習目標</span></div><h2>今天要完成什麼？</h2><p class="lead">上週我們畫好了背景和小路。這週把路線變成角色、加入老鼠，讓牠從起點「直線前進」。<strong>轉彎與抵達飼料桶是下週（第四週）的任務，這週先不做。</strong></p><div class="teacher-note"><strong>老師先示範：</strong>上課一開始，老師先按綠旗放一次完成版——老鼠靠身上的紅藍標順著彎路走到飼料桶。這件事其實要做兩週：<strong>這週（W3）先讓老鼠會直線走、並做好身上的紅藍標；下週（W4）再加程式讓牠轉彎</strong>。直線走不是終點，是通往「會轉彎」的中繼點。</div><div class="goal-box"><span>CORE MISSION</span><strong>讓老鼠沿路直線前進</strong><p>按下綠旗，老鼠會回到起點，然後用 mousemove 重複往前走。</p></div><h3>本週學習目標</h3><ul class="check-list"><li>把背景路線複製成獨立的路徑角色</li><li>加入老鼠並準備紅框、藍框造型（下週判斷用）</li><li>設定老鼠的起點、大小和方向</li><li>建立 mousemove 自訂積木讓老鼠往前走</li><li>用重複積木讓老鼠持續直線前進</li></ul><div class="note-box"><strong>本週完成標準：</strong>按綠旗後，老鼠能從老鼠洞出發、沿著路「直線」重複前進即可。還不會轉彎是正常的，下週再處理。</div><div class="page-footer"><span>Scratch 母雞護衛隊</span><span>02</span></div></section>
 
     <section class="book-page content-page"><div class="page-header"><span>STEP 01A</span><span>建立路徑角色</span></div><h2>把路線複製成角色</h2><p class="lead">背景上的線只是圖案，先把它複製成可以被程式使用的角色。</p><div class="large-process"><div><img src="{{ '/week3/resources/path/做一個路徑角色1-在背景複製.jpg' | relative_url }}" alt="在背景複製路徑"><span>01 複製路徑</span></div><div><img src="{{ '/week3/resources/path/做一個路徑角色2-編輯一個新角色.jpg' | relative_url }}" alt="編輯新角色"><span>02 編輯新角色</span></div></div><div class="page-footer"><span>第三週・路徑角色</span><span>03</span></div></section>
 
@@ -18,19 +18,19 @@ has_children: true
 
     <section class="book-page content-page"><div class="page-header"><span>STEP 01C</span><span>完成路徑角色</span></div><h2>回到程式並設定起點</h2><p class="lead">回到程式頁面，把路徑角色定位到舞台中心，準備讓老鼠使用它。</p><div class="large-process"><div><img src="{{ '/week3/resources/path/做一個路徑角色5-回到程式.jpg' | relative_url }}" alt="回到程式頁面"><span>05 回到程式</span></div><div><img src="{{ '/week3/resources/path/做一個路徑角色6-把路經定位到00.jpg' | relative_url }}" alt="把路徑定位到零點"><span>06 設定起點</span></div></div><div class="teacher-note"><strong>檢查：</strong>路徑角色要和背景上的路完全重疊，否則下週老鼠會判斷不到道路。</div><div class="page-footer"><span>第三週・完成路徑角色</span><span>05</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 02A</span><span>老鼠造型</span></div><h2>加入老鼠，準備紅藍造型</h2><p class="lead">先加入一隻老鼠，再多準備紅框與藍框兩個造型。造型這週先備好，<strong>真正用來判斷轉彎是下週的事</strong>。</p><div class="large-process"><div><img src="{{ '/week3/resources/mouse/加入一隻老鼠.jpg' | relative_url }}" alt="加入一隻老鼠"><span>01 加入老鼠</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二1-再加二個老鼠造型.jpg' | relative_url }}" alt="增加老鼠造型"><span>02 增加紅框與藍框造型</span></div></div><div class="teacher-note"><strong>造型細節：</strong>紅框、藍框的完整製作步驟放在最後兩頁附錄（REFERENCE A／B）。</div><div class="page-footer"><span>第三週・老鼠造型</span><span>06</span></div></section>
+    <section class="book-page content-page"><div class="page-header"><span>STEP 02A</span><span>老鼠造型</span></div><h2>加入老鼠，準備紅藍造型</h2><p class="lead">先加入一隻老鼠，再多準備紅框與藍框兩個造型（這一紅一藍就是老鼠的「感應器」）。造型這週先備好，<strong>真正用來壓路線、判斷轉彎是下週的事</strong>。</p><div class="large-process"><div><img src="{{ '/week3/resources/mouse/加入一隻老鼠.jpg' | relative_url }}" alt="加入一隻老鼠"><span>01 加入老鼠</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二1-再加二個老鼠造型.jpg' | relative_url }}" alt="增加老鼠造型"><span>02 增加紅框與藍框造型</span></div></div><div class="teacher-note"><strong>造型細節：</strong>紅框、藍框的完整製作步驟放在最後兩頁附錄（REFERENCE A／B）。</div><div class="page-footer"><span>第三週・老鼠造型</span><span>06</span></div></section>
 
     <section class="book-page content-page"><div class="page-header"><span>STEP 02B</span><span>設定起點</span></div><h2>把老鼠放到出發地</h2><p class="lead">準備好造型後，先隱藏母雞，再把老鼠移到道路起點，調整大小與方向，並補上其他一開始的設定。</p><div class="large-process"><div><img src="{{ '/week3/resources/mouse/先把母雞隱藏起來.jpg' | relative_url }}" alt="先把母雞隱藏起來"><span>03 隱藏母雞</span></div><div><img src="{{ '/week3/resources/mouse/把老鼠移到出發地並調整大小和方向.jpg' | relative_url }}" alt="把老鼠移到出發地並調整大小和方向"><span>04 設定老鼠起點</span></div></div><div class="code-card"><div class="code-title">MOUSE / INITIAL SETUP</div><div class="code-block"><span class="event-block">當綠旗被點擊</span><span class="motion-block">移到路徑起點</span><span class="looks-block">設定大小與方向</span></div></div><div class="page-footer"><span>第三週・老鼠起點</span><span>07</span></div></section>
 
     <section class="book-page content-page"><div class="page-header"><span>STEP 03A</span><span>自訂積木</span></div><h2>建立 mousemove</h2><p class="lead">把「老鼠往前走」整理成一個叫做 <code>mousemove</code> 的自訂積木，讓程式比較容易閱讀。</p><div class="large-process"><div><img src="{{ '/week3/resources/mouse/調整藍紅老鼠位置5-建立一個積木.jpg' | relative_url }}" alt="建立自訂積木"><span>01 建立一個積木</span></div><div><img src="{{ '/week3/resources/mouse/調整藍紅老鼠位置6-取名叫mousemove.jpg' | relative_url }}" alt="命名 mousemove"><span>02 命名 mousemove</span></div></div><div class="page-footer"><span>第三週・自訂積木</span><span>08</span></div></section>
 
-    <section class="book-page content-page"><div class="page-header"><span>STEP 03B</span><span>開始移動</span></div><h2>讓老鼠重複前進</h2><p class="lead">把「移動 10 點」放進 mousemove，再用重複積木讓老鼠持續向前。這就是本週的核心成果。</p><div class="large-process"><div><img src="{{ '/week3/resources/mouse/調整藍紅老鼠位置7-移動10.jpg' | relative_url }}" alt="移動十點"><span>03 移動 10 點</span></div><div><img src="{{ '/week3/resources/mouse/在老鼠初始化完成後且mousemove完成後加入重覆前進.jpg' | relative_url }}" alt="重複前進"><span>04 重複前進</span></div></div><div class="code-card"><div class="code-title">MOUSE / MOVE FORWARD</div><div class="code-block"><span class="event-block">當綠旗被點擊（接在起點設定後）</span><span class="motion-block">重複無限次 → mousemove（移動 10 點）</span></div></div><div class="mini-check"><strong>完成標準</strong><span>按下綠旗 → 老鼠從起點出發 → 老鼠會重複直線前進</span></div><div class="page-footer"><span>第三週・老鼠移動</span><span>09</span></div></section>
+<section class="book-page content-page"><div class="page-header"><span>STEP 03B</span><span>開始移動</span></div><h2>讓老鼠重複前進</h2><p class="lead">把「移動 10 點」放進 mousemove，再用重複積木讓老鼠持續向前。這就是本週的核心成果。</p><div class="large-process"><div><img src="{{ '/week3/resources/mouse/調整藍紅老鼠位置7-移動10.jpg' | relative_url }}" alt="移動十點"><span>03 移動 10 點</span></div><div><img src="{{ '/week3/resources/mouse/在老鼠初始化完成後且mousemove完成後加入重覆前進.jpg' | relative_url }}" alt="重複前進"><span>04 重複前進</span></div></div><div class="code-card"><div class="code-title">MOUSE / MOVE FORWARD</div><div class="flow-layout"><div class="flow-panel"><strong>主程式：老鼠開始跑</strong><div class="flow-node flow-event">當綠旗被點擊</div><div class="flow-arrow" aria-hidden="true">↓</div><div class="flow-node flow-setup">設定起點、大小和方向</div><div class="flow-arrow" aria-hidden="true">↓</div><div class="flow-node flow-loop">重複無限次</div><div class="flow-arrow" aria-hidden="true">↓</div><div class="flow-node flow-call">呼叫 mousemove</div></div><div class="flow-panel"><strong>自訂積木：mousemove</strong><div class="flow-node flow-definition">定義 mousemove</div><div class="flow-arrow" aria-hidden="true">↓</div><div class="flow-node flow-motion">移動 10 點</div></div></div><p class="flow-caption">主程式會一直呼叫 mousemove；mousemove 每次只讓老鼠前進 10 點。</p></div><div class="mini-check"><strong>完成標準</strong><span>按下綠旗 → 老鼠從起點出發 → 老鼠會重複直線前進</span></div><div class="page-footer"><span>第三週・老鼠移動</span><span>09</span></div></section>
 
     <section class="book-page content-page collision-appendix"><div class="page-header"><span>REFERENCE A</span><span>老鼠造型準備</span></div><h2>建立藍框造型</h2><p class="lead">以下是 STEP 02A「增加紅藍造型」的完整參考流程（上半）。</p><div class="collision-grid"><div><img src="{{ '/week3/resources/collision/修改老鼠設定二1-選到老鼠.jpg' | relative_url }}" alt="選取老鼠"><span>01 選取老鼠</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二2-在老鼠上鬍子加上藍色框.jpg' | relative_url }}" alt="在老鼠上加入藍框"><span>02 加入藍框</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二3-選擇老鼠刪掉老鼠留下藍色框.jpg' | relative_url }}" alt="刪除老鼠留下藍框"><span>03 留下藍框</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二4-換下一個造型.jpg' | relative_url }}" alt="切換下一個造型"><span>04 切換造型</span></div></div><div class="page-footer"><span>第三週・造型附錄 A</span><span>10</span></div></section>
 
     <section class="book-page content-page collision-appendix"><div class="page-header"><span>REFERENCE B</span><span>完成老鼠造型</span></div><h2>加入紅框並完成造型</h2><p class="lead">完成藍框後，接著做紅框，再把紅藍框整理進老鼠造型中（下半）。</p><div class="collision-grid"><div><img src="{{ '/week3/resources/collision/修改老鼠設定二5-加入紅色框.jpg' | relative_url }}" alt="加入紅色框"><span>05 加入紅色框</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二6-刪除老鼠留下紅框.jpg' | relative_url }}" alt="刪除老鼠留下紅框"><span>06 留下紅框</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二6-把紅藍框加到第一隻老鼠造型中.jpg' | relative_url }}" alt="把紅藍框加入第一隻老鼠造型"><span>07 合併紅藍框</span></div><div><img src="{{ '/week3/resources/collision/修改老鼠設定二1-再加二個老鼠造型.jpg' | relative_url }}" alt="增加兩個老鼠造型"><span>08 確認造型數量</span></div></div><div class="page-footer"><span>第三週・造型附錄 B</span><span>11</span></div></section>
 
-    <section class="book-page content-page final-page"><div class="page-header"><span>CHECKPOINT</span><span>下課前檢查</span></div><h2>老鼠會直線前進了！</h2><div class="print-checklist"><label><input type="checkbox"> 路徑角色和背景道路完全重疊</label><label><input type="checkbox"> 老鼠準備好紅框、藍框造型</label><label><input type="checkbox"> 按綠旗老鼠會回到固定起點</label><label><input type="checkbox"> 老鼠能用 mousemove 重複直線前進</label></div><div class="next-page-box"><span>NEXT WEEK</span><h3>老鼠上路②：轉彎與抵達</h3><p>下週用紅色、藍色路徑判斷，讓老鼠在轉角轉彎、走完整條路，最後抵達飼料桶消失。</p></div><div class="page-footer"><span>母雞護衛隊・第三週</span><span>12</span></div></section>
+    <section class="book-page content-page final-page"><div class="page-header"><span>CHECKPOINT</span><span>下課前檢查</span></div><h2>老鼠會直線前進了！</h2><div class="print-checklist"><label><input type="checkbox"> 路徑角色和背景道路完全重疊</label><label><input type="checkbox"> 老鼠準備好紅框、藍框造型</label><label><input type="checkbox"> 按綠旗老鼠會回到固定起點</label><label><input type="checkbox"> 老鼠能用 mousemove 重複直線前進</label></div><div class="next-page-box"><span>NEXT WEEK</span><h3>老鼠上路②：轉彎與抵達</h3><p>下週用老鼠身上的紅藍標壓路線來轉彎，走完整條路，最後抵達飼料桶消失。</p></div><div class="page-footer"><span>母雞護衛隊・第三週</span><span>12</span></div></section>
   </main>
 </div>
 
@@ -39,4 +39,47 @@ has_children: true
 .final-image{margin:8mm 0;border:1px solid #cbd3cb;background:#f7f8f5;padding:3mm}.final-image img{display:block;width:100%;height:60mm;object-fit:contain}.final-image span{display:block;margin-top:2mm;color:#536158;font-size:8pt}
 .large-process{display:grid;grid-template-columns:1fr;gap:5mm;margin-top:8mm}.large-process div{border:1px solid #cbd3cb;background:#f7f8f5;padding:3mm}.large-process img{display:block;width:100%;height:68mm;object-fit:contain}.large-process span{display:block;margin-top:2mm;color:#536158;font-size:10pt;font-weight:700}.image-grid span{font-size:10pt;font-weight:700}
 .collision-grid{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:8mm}.collision-grid div{border:1px solid #cbd3cb;background:#f7f8f5;padding:3mm}.collision-grid img{display:block;width:100%;height:48mm;object-fit:contain}.collision-grid span{display:block;margin-top:2mm;color:#536158;font-size:9pt;font-weight:700}.collision-appendix h2{font-size:22pt}
+
+/* W3 typography: 16px is the minimum readable size on every page. */
+.week-three-book{--text-min:16px;--text-body:18px;--text-emphasis:20px;--text-subheading:22px;--text-heading:32px;font-size:var(--text-body)}
+.week-three-book .ebook-toolbar,
+.week-three-book .page-kicker,
+.week-three-book .page-header,
+.week-three-book .cover-footer,
+.week-three-book .page-footer{font-size:var(--text-min)}
+.week-three-book .cover-description,
+.week-three-book .lead,
+.week-three-book .goal-box,
+.week-three-book .check-list,
+.week-three-book .note-box,
+.week-three-book .teacher-note,
+.week-three-book .code-card,
+.week-three-book .code-title,
+.week-three-book .code-block,
+.week-three-book .mini-check,
+.week-three-book .next-page-box,
+.week-three-book .print-checklist{font-size:var(--text-body);line-height:1.7}
+.week-three-book .content-page h2{font-size:var(--text-heading)}
+.week-three-book .content-page h3,
+.week-three-book .goal-box strong,
+.week-three-book .next-page-box h3{font-size:var(--text-subheading)}
+.week-three-book .check-list li{font-size:var(--text-body);line-height:1.8;margin-bottom:3mm}
+.week-three-book .large-process span,
+.week-three-book .collision-grid span,
+.week-three-book .image-grid span{font-size:var(--text-emphasis)}
+.week-three-book .code-title{font-weight:700;letter-spacing:.04em}
+.week-three-book .print-checklist label{font-size:var(--text-body);line-height:1.8}
+.week-three-book .flow-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:8mm;margin-top:5mm}
+.week-three-book .flow-panel{padding:5mm;border:2px solid #cbd3cb;background:#f7f8f5;border-radius:3mm}
+.week-three-book .flow-panel>strong{display:block;margin-bottom:4mm;font-size:var(--text-emphasis);color:var(--ink)}
+.week-three-book .flow-node{padding:4mm 3mm;border-radius:2mm;text-align:center;font-size:var(--text-body);font-weight:700;line-height:1.35}
+.week-three-book .flow-event{background:#ffd447;border:2px solid #c28d00}
+.week-three-book .flow-setup{background:#dcecff;border:2px solid #6b9bd2}
+.week-three-book .flow-loop{background:#f0ddff;border:2px solid #9a65c4}
+.week-three-book .flow-call{background:#ffb3a5;border:2px solid #d75843}
+.week-three-book .flow-definition{background:#ffb3a5;border:2px solid #d75843}
+.week-three-book .flow-motion{background:#dcecff;border:2px solid #6b9bd2}
+.week-three-book .flow-arrow{text-align:center;color:#536158;font-size:24px;font-weight:900;line-height:1.1;padding:1mm 0}
+.week-three-book .flow-caption{margin:5mm 0 0;color:#536158;font-size:var(--text-min);line-height:1.6}
+@media(max-width:600px){.week-three-book .flow-layout{grid-template-columns:1fr}}
 </style>
